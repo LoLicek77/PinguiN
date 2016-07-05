@@ -1,8 +1,8 @@
 {
-    "room": "CZ/SK FATTYPILLOW Official",
+    "room": "Test",
     "author": "-PinguiN-",
     "icon": null,
-    "css": null,
+    "css": "https://raw.githubusercontent.com/LoLicek77/PinguiN/master/test.css",
     "rules": {
         "allowAutorespond": true,
         "allowAutowoot": true,
