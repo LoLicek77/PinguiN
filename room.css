@@ -316,7 +316,20 @@ You are NOT allowed using this file without creator's permission!
 
 /* Bonki */
 
-/* http://i.imgur.com/5ErbfWk.png */
+.id-6345878 .meta .username:after {
+    content: "\A \A \A \A" url('http://i.imgur.com/5ErbfWk.png') " PinguiN's Love";
+    white-space: pre;
+    font-size: 11pt;
+    display: block;
+    margin-top: -6px;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.id-6345878 .meta {
+    height:140px !important;
+}
+
 
 [data-cid^="6345878-"] .msg .from .un {
         color:#d05340 !important;
