@@ -1,3 +1,316 @@
-    .room-background {
-        background-image: url("http://i.imgur.com/3w0bDYc.jpg") !important;
-    }
+/* Header */
+
+.app-header {
+	background-color:#000;
+}
+
+/* Plug Menu */
+
+#app-menu {
+	background-color:rgb(43,87,154);
+}
+
+#app-menu:hover {
+	background-color:rgb(70,123,203);
+}
+
+/* Room Bar */
+
+.dark-label {
+	color:#fff;
+	font-weight:bold;
+}
+
+.icon-grab {
+	background-position: -35px -280px;
+}
+
+/* Now Playing Bar */
+
+#history-button, #rs-skip-button {
+	transition:0.3s;
+	background-color:#000 !important;
+}
+
+#history-button:hover , #rs-skip-button:hover {
+	box-shadow: inset 0 0 40px #4aaee7 !important;
+}
+
+/* Panel Bar */
+
+#header-panel-bar {
+	background-color:#000 !important;
+}
+
+#chat-button, #users-button, #waitlist-button, #friends-button, #rcs-appright-button {
+	transition:0.3s;
+}
+
+#chat-button:hover, #users-button:hover, #waitlist-button:hover, #friends-button:hover, #rcs-appright-button:hover {
+	box-shadow: inset 0 0 40px #4aaee7 !important;
+}
+
+.header-panel-button.selected {
+	background-color:rgb(43,87,154);
+}
+
+/* User List */
+
+.button.room.selected {
+	box-shadow: inset 0 0 20px #fff !important;
+	border-bottom: 0px !important;
+}
+
+.button.staff.selected {
+	box-shadow: inset 0 0 20px #b300b3 !important;
+	border-bottom: 0px !important;
+}
+
+.button.bans.selected, .button.mutes.selected, .button.ignored.selected {
+	box-shadow: inset 0 0 20px #ff0000 !important;
+	border-bottom: 0px !important;
+}
+
+/* Groups */
+
+.group.host {color:#4aaee7;}
+.group.manager {color:#ffa500;}
+.group.bouncer {color:#b300b3;}
+.group.dj {color:#b300b3;}
+
+/* Bans */
+
+#user-lists .list.bans .user .label, #user-lists .list.mutes .user .label {color:#ff0000;}
+
+#dialog-confirm {
+	background-color:rgb(43,87,154) !important;
+}
+
+.dialog-body {
+	background-color:#000 !important;
+}
+
+.button.cancel, .button.submit {
+	color:#fff !important;
+}
+
+.button.submit {
+	background:rgb(43,87,154) !important;
+}
+
+/* Chat */
+
+#chat-messages {
+        font-size:12px !important;
+}
+
+.cm.log {
+	display:none !important;
+}
+
+.cm.welcome {
+	color:rgb(70,123,203) !important;
+	background-color:#282c35 !important;
+}
+
+.rs-log-user-friend-join {
+	color:#009a00 !important;
+	border-left: 3px solid #009a00 !important;
+	background:#000;
+}
+
+.rs-log-user-leave {
+	color:#ff0000 !important;
+	border-left: 3px solid #ff0000 !important;
+	background:#000;
+}
+
+#chat .from.dj .un, #chat .from.staff .un {
+	color:#4aaee7 !important;
+}
+
+.cm.moderation {
+	color:#4aaee7 !important;
+}
+
+#chat .name {
+	color:#4aaee7 !important;
+	font-weight:bold;
+}
+
+#chat .mention {
+	color:#fff !important;
+	border-left:3px solid rgb(70,123,203) !important;
+	background:#000 !important;
+	box-shadow: inset 0 0 50px rgb(70,123,203);
+}
+
+#user-rollover {
+	background:rgba(0,0,0,0.4) !important;
+}
+
+#user-rollover .info {
+	background:rgba(43,87,154,0.6) !important;
+}
+
+/* Footer */
+
+#footer {
+	background:rgba(43,87,154,0.6) !important;
+}
+
+#playlist-button {
+	background:rgb(43,87,154) !important;
+}
+
+#playlist-button:hover {
+	background:rgb(70,123,203) !important;
+}
+
+.inventory.button:hover , .badge.button:hover, .store.button:hover, .profile.button:hover, .settings.button:hover  {
+	background:rgb(70,123,203) !important;
+}
+
+#dj-button.is-leave .left, #dj-button.is-quit .left {
+	background:rgb(43,87,154) !important;
+}
+
+/* Woot */
+
+#woot .bottom, #woot.selected {
+	background:#009a00 !important;
+}
+
+#woot-rs, .title.woot {
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+
+.title.woot {
+	background:#009a00 !important;
+}
+
+#woot.crowd-response.disabled.active .bottom {
+	background:#009a00 !important;
+}
+
+
+#woot-rs-list {
+	background:rgba(16,17,21,0.8);
+}
+
+/* Grab */
+
+#grab .bottom, #grab.selected {
+	background:#b300b3 !important;
+}
+
+#grab-rs, .title.grab {
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+
+.title.grab {
+	background:#b300b3 !important;
+}
+
+#grab.crowd-response.disabled.active .bottom {
+	background:#b300b3 !important;
+}
+
+
+#grab-rs-list {
+	background:rgba(16,17,21,0.8);
+}
+
+/* Meh */
+
+#meh .bottom, #meh.selected {
+	background:#ff0000 !important;
+}
+
+#meh-rs, .title.meh {
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+
+.title.meh {
+	background:#ff0000 !important;
+}
+
+#meh.crowd-response.disabled.active .bottom {
+	background:#ff0000 !important;
+}
+
+
+#meh-rs-list {
+	background:rgba(16,17,21,0.8);
+}
+
+/* PinguiN */
+
+.id-4006230 .meta .username:after {
+    content: "\A \A \A \A" url('http://i.imgur.com/JzLbUVg.png') " Room Designer";
+    white-space: pre;
+    font-size: 11pt;
+    display: block;
+    margin-top: -6px;
+    color: #4aaee7;
+    font-weight: bold;
+}
+
+.id-4006230 .meta {
+    height:140px !important;
+}
+
+[data-cid^="4006230-"] .msg {
+        box-shadow: inset 0 0 30px #4aaee7;
+        border:2px solid #4aaee7 !important;
+}
+
+#chat [data-cid^="4006230-"] .bdg {
+    background: url('http://i.imgur.com/ITjaxIC.png') !important;
+    background-position: 0px 0px;
+}
+
+[data-cid^="4006230-"] .msg .from .un {
+    position: relative;
+    left: -1px;
+    padding-left: 18px;
+    background-image: url('http://i.imgur.com/44AKqI5.gif');
+    background-repeat: no-repeat;
+    background-position: -1px center;
+    background-size: 15px auto;
+    color:#4aaee7 !important;
+}
+
+/* Echny
+
+.id-5982664 .meta .username:after {
+    content: "\A \A \A \A" url('http://i.imgur.com/6HXvd0t.png') " Banana";
+    white-space: pre;
+    font-size: 11pt;
+    display: block;
+    margin-top: -6px;
+    color: #ffff00;
+    font-weight: bold;
+}
+
+.id-5982664 .meta {
+    height:140px !important;
+}
+
+*/
+
+/* Bonki */
+
+/* http://i.imgur.com/5ErbfWk.png */
+
+[data-cid^="6345878-"] .msg .from .un {
+        color:#d05340 !important;
+}
+
+[data-cid^="6345878-"] .msg {
+        box-shadow: inset 0 0 30px #d05340;
+        border:2px solid #d05340 !important;
+}
