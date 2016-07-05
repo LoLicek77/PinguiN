@@ -16,7 +16,7 @@
    "ccc":{  
       "admin":null,
       "ambassador":null,
-      "host":"http://i.imgur.com/44AKqI5.gif",
+      "host":null,
       "cohost":null,
       "manager":null,
       "bouncer":null,
@@ -31,7 +31,7 @@
       "playback":null,
       "admin":null,
       "ambassador":null,
-      "host":null,
+      "host":"http://i.imgur.com/44AKqI5.gif",
       "cohost":null,
       "manager":null,
       "bouncer":null,
