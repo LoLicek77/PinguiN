@@ -2,7 +2,7 @@
    "room":"PinguiN.'s Liar",
    "author":"-PinguiN-",
    "icon":null,
-   "css":"http://pinguin.maweb.eu/room.css",
+   "css":"https://raw.githubusercontent.com/LoLicek77/PinguiN/master/room.css",
    "rules":{  
       "allowAutorespond":true,
       "allowAutowoot":true,
