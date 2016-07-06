@@ -393,3 +393,10 @@ You are NOT allowed using this file without creator's permission!
     background: url('http://i.imgur.com/UMgkFmN.png') !important;
     background-position: 0px 0px;
 }
+
+/* Lucinkis */
+
+#chat [data-cid^="6032119-"] .bdg {
+    background: url('http://i.imgur.com/bSHFMMZ.png') !important;
+    background-position: 0px 0px;
+}
