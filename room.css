@@ -383,6 +383,6 @@ You are NOT allowed using this file without creator's permission!
 }
 
 [data-cid^="6345878-"] .msg {
-        box-shadow: inset 0 0 30px #d05340;
-        border:2px solid #d05340 !important;
+        box-shadow: inset 0 0 10px #d05340;
+        border-left:3px solid #d05340 !important;
 }
