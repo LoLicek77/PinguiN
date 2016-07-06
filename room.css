@@ -10,6 +10,10 @@ You are NOT allowed using this file without creator's permission!
 
 */
 
+* {
+	font-family:Tahoma, sans-serif !important;
+}
+
 /* Header */
 
 .app-header {
@@ -69,7 +73,7 @@ You are NOT allowed using this file without creator's permission!
 /* User List */
 
 .button.room.selected {
-	box-shadow: inset 0 0 20px #fff !important;
+	box-shadow: inset 0 0 20px #4aaee7 !important;
 	border-bottom: 0px !important;
 }
 
@@ -152,17 +156,60 @@ You are NOT allowed using this file without creator's permission!
 
 #chat .mention {
 	color:#fff !important;
-	border-left:3px solid rgb(70,123,203) !important;
+	border-left:3px solid #fff !important;
 	background:#000 !important;
-	box-shadow: inset 0 0 50px rgb(70,123,203);
 }
 
 #user-rollover {
-	background:rgba(0,0,0,0.4) !important;
+	background:rgba(0,0,0,0.8) !important;
+}
+
+.thumb .background {
+	background:rgba(0,0,0,0.8) !important;
 }
 
 #user-rollover .info {
-	background:rgba(43,87,154,0.6) !important;
+	background:rgba(43,87,154,0.4) !important;
+}
+
+#user-rollover .info .level .label {
+	color:#fff !important;
+}
+
+#user-rollover.is-staff .info .role span {
+	color:#fff !important;
+}
+
+#user-rollover {
+	border-radius:10px 10px 0px 0px;
+}
+
+.action.mention, .action.friend, .action.ignore, .action.mod-dj, .action.mod-staff, .action.mod-mute, .action.mod-ban, .action.skip {
+	transition:0.3s;
+}
+
+.action.mention:hover, .action.friend:hover, .action.mod-dj:hover, .action.skip:hover {
+	box-shadow: inset 0 0 30px #4aaee7 !important;
+	background:rgba(0,0,0,0.8) !important
+}
+
+.action.mod-staff:hover {
+	box-shadow: inset 0 0 30px #b300b3 !important;
+	background:rgba(0,0,0,0.8) !important
+}
+
+.action.ignore:hover, .action.mod-mute:hover, .action.mod-ban:hover {
+	box-shadow: inset 0 0 30px #ff0000 !important;
+	background:rgba(0,0,0,0.8) !important
+}
+
+.action.giftsub {
+	transition:0.3s;
+}
+
+.action.giftsub:hover {
+	box-shadow: inset 0 0 30px #c59840 !important;
+	background:rgba(0,0,0,0.8) !important
 }
 
 /* Footer */
@@ -276,8 +323,8 @@ You are NOT allowed using this file without creator's permission!
 }
 
 [data-cid^="4006230-"] .msg {
-        box-shadow: inset 0 0 30px #4aaee7;
-        border:2px solid #4aaee7 !important;
+        box-shadow: inset 0 0 10px rgba(43,87,154,0.8);
+        border-left:3px solid #4aaee7 !important;
 }
 
 #chat [data-cid^="4006230-"] .bdg {
