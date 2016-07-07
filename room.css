@@ -414,3 +414,10 @@ You are NOT allowed using this file without creator's permission!
     background: url('http://i.imgur.com/bSHFMMZ.png') !important;
     background-position: 0px 0px;
 }
+
+/* Kubulík */
+
+#chat [data-cid^="6086152-"] .bdg {
+    background: url('http://i.imgur.com/eayD8KE.png') !important;
+    background-position: 0px 0px;
+}
