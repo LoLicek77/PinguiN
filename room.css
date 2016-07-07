@@ -411,7 +411,7 @@ You are NOT allowed using this file without creator's permission!
 /* Lucinkis */
 
 #chat [data-cid^="6032119-"] .bdg {
-    background: url('http://i.imgur.com/bSHFMMZ.png') !important;
+    background: url('http://i.imgur.com/XitrkfF.png') !important;
     background-position: 0px 0px;
 }
 
@@ -419,5 +419,12 @@ You are NOT allowed using this file without creator's permission!
 
 #chat [data-cid^="6086152-"] .bdg {
     background: url('http://i.imgur.com/eayD8KE.png') !important;
+    background-position: 0px 0px;
+}
+
+/* Atti */
+
+#chat [data-cid^="6614885-"] .bdg {
+    background: url('http://i.imgur.com/k2hoWah.png') !important;
     background-position: 0px 0px;
 }
