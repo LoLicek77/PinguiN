@@ -70,6 +70,18 @@ You are NOT allowed using this file without creator's permission!
 	background-color:rgb(43,87,154);
 }
 
+#playback .background {
+    background: url('http://i.imgur.com/LMVQTM9.png') !important;
+    width: 700px !important;
+    height: 270px !important;
+    left:-90px;
+}
+
+#playback .background img {
+    display: none;
+}
+
+
 /* User List */
 
 .button.room.selected {
@@ -142,7 +154,7 @@ You are NOT allowed using this file without creator's permission!
 }
 
 #chat .from.dj .un, #chat .from.staff .un {
-	color:#4aaee7 !important;
+	color:#4aaee7;
 }
 
 .cm.moderation {
@@ -344,24 +356,6 @@ You are NOT allowed using this file without creator's permission!
     color:#4aaee7 !important;
 }
 
-/* Echny
-
-.id-5982664 .meta .username:after {
-    content: "\A \A \A \A" url('http://i.imgur.com/6HXvd0t.png') " Banana";
-    white-space: pre;
-    font-size: 11pt;
-    display: block;
-    margin-top: -6px;
-    color: #ffff00;
-    font-weight: bold;
-}
-
-.id-5982664 .meta {
-    height:140px !important;
-}
-
-*/
-
 /* Bonki */
 
 .id-6345878 .meta .username:after {
@@ -370,24 +364,31 @@ You are NOT allowed using this file without creator's permission!
 	font-size: 11pt;
 	display: block;
 	margin-top: 59px;
-	color: #ff0000;
 	font-weight: bold;
 	cursor: text;
+	color:#d05340 !important;
 }
 
 .id-6345878 .meta {
     height:140px !important;
 }
 
-
-[data-cid^="6345878-"] .msg .from .un {
-        color:#d05340 !important;
-}
-
 [data-cid^="6345878-"] .msg {
         box-shadow: inset 0 0 10px #d05340;
         border-left:3px solid #d05340 !important;
 }
+
+[data-cid^="6345878-"] .msg .from .un {
+    position: relative;
+    left: -1px;
+    padding-left: 18px;
+    background-image: url('http://i.imgur.com/44AKqI5.gif');
+    background-repeat: no-repeat;
+    background-position: -1px center;
+    background-size: 15px auto;
+    color:#d05340 !important;
+}
+
 
 /* Shoky */
 
