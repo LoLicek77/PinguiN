@@ -358,6 +358,8 @@ You are NOT allowed using this file without creator's permission!
 
 /* Bonki */
 
+/* Bonki */
+
 .id-6345878 .meta .username:after {
 	content: "\A" url('http://i.imgur.com/5ErbfWk.png') " PinguiN's Love";
 	white-space: pre;
@@ -382,11 +384,16 @@ You are NOT allowed using this file without creator's permission!
     position: relative;
     left: -1px;
     padding-left: 18px;
-    background-image: url('http://i.imgur.com/44AKqI5.gif');
+    background-image: url('http://i.imgur.com/NLyZQBd.png');
     background-repeat: no-repeat;
     background-position: -1px center;
     background-size: 15px auto;
     color:#d05340 !important;
+}
+
+#chat [data-cid^="6345878-"] .bdg {
+    background: url('http://i.imgur.com/2VfeAfb.png') !important;
+    background-position: 0px 0px;
 }
 
 
