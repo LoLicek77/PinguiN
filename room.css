@@ -309,13 +309,14 @@ You are NOT allowed using this file without creator's permission!
 /* PinguiN */
 
 .id-4006230 .meta .username:after {
-    content: "\A \A \A \A" url('http://i.imgur.com/JzLbUVg.png') " Room Designer";
-    white-space: pre;
-    font-size: 11pt;
-    display: block;
-    margin-top: -6px;
-    color: #4aaee7;
-    font-weight: bold;
+	content: "\A" url('http://i.imgur.com/JzLbUVg.png') " Room Designer";
+	white-space: pre;
+	font-size: 11pt;
+	display: block;
+	margin-top: 59px;
+	color: #4aaee7;
+	font-weight: bold;
+	cursor: text;
 }
 
 .id-4006230 .meta {
@@ -364,13 +365,14 @@ You are NOT allowed using this file without creator's permission!
 /* Bonki */
 
 .id-6345878 .meta .username:after {
-    content: "\A \A \A \A" url('http://i.imgur.com/5ErbfWk.png') " PinguiN's Love";
-    white-space: pre;
-    font-size: 11pt;
-    display: block;
-    margin-top: -6px;
-    color: #ff0000;
-    font-weight: bold;
+	content: "\A" url('http://i.imgur.com/5ErbfWk.png') " PinguiN's Love";
+	white-space: pre;
+	font-size: 11pt;
+	display: block;
+	margin-top: 59px;
+	color: #ff0000;
+	font-weight: bold;
+	cursor: text;
 }
 
 .id-6345878 .meta {
