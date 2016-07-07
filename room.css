@@ -318,6 +318,12 @@ You are NOT allowed using this file without creator's permission!
 	background:rgba(16,17,21,0.8);
 }
 
+/* Notifications */
+
+#toast-notifications .notification .left {
+    background: rgb(43,87,154) !important;
+}
+
 /* PinguiN */
 
 .id-4006230 .meta .username:after {
