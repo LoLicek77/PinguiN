@@ -644,6 +644,11 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 	background:rgba(0,0,0,0.8) !important
 }
 
+.experience .levels .level.earned.ep {
+	background:#000 !important;
+	box-shadow: inset 0 0 30px rgb(70,123,203) !important;
+}
+
 .experience .levels .level {
 	background: #000;
 	box-shadow: inset 0 0 2px rgb(70,123,203) !important;
