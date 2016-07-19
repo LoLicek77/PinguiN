@@ -351,7 +351,7 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 	background:rgb(70,123,203) !important;
 }
 
-#dj-button.is-leave .left, #dj-button.is-quit .left, #dj-button.is-join .left {
+#dj-button .left, #dj-button.is-leave .left, #dj-button.is-quit .left, #dj-button.is-join .left {
 	background:rgb(43,87,154) !important;
 }
 
