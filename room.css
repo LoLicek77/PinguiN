@@ -1,12 +1,11 @@
-/*
 
+/*
 # Room:			PinguiN.'s Liar
 # Author:		-PinguiN-
 # Made for:		https://plug.dj/sk-cz-trolling
 # Created:		5.7.2016
 ## WARNING ##
 You are NOT allowed using this file without creator's permission!
-
 */
 
 * {
@@ -305,11 +304,11 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 	border-radius:10px 10px 0px 0px;
 }
 
-.action.mention, .action.friend, .action.ignore, .action.mod-dj, .action.mod-staff, .action.mod-mute, .action.mod-ban, .action.skip {
+.action.mention, .action.friend, .action.gift, .action.ignore, .action.mod-dj, .action.mod-staff, .action.mod-mute, .action.mod-ban, .action.skip {
 	transition:0.3s;
 }
 
-.action.mention:hover, .action.friend:hover, .action.mod-dj:hover, .action.skip:hover {
+.action.mention:hover, .action.gift:hover, .action.friend:hover, .action.mod-dj:hover, .action.skip:hover {
 	box-shadow: inset 0 0 30px #4aaee7 !important;
 	background:rgba(0,0,0,0.8) !important
 }
@@ -638,6 +637,10 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 	background: #000;
 	border-radius: 10px;
 	box-shadow: inset 0 0 10px rgb(70,123,203) !important;
+}
+
+.user-content.profile .meta.is-staff .role span {
+	color:rgb(70,123,203);
 }
 
 
