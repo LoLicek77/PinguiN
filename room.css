@@ -991,3 +991,10 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 	background: url('http://i.imgur.com/QH6FP7H.png') !important;
 	background-position: 0px 0px;
 }
+
+/* Klaudí */
+
+#chat [data-cid^="3437401-"] .bdg {
+	background: url('http://i.imgur.com/Q4wK6wd.gif') !important;
+	background-position: 0px 0px;
+}
