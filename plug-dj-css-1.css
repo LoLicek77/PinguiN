@@ -1,0 +1,539 @@
+/*
+# Author:		-PinguiN-
+# Created: 		18.8.2016
+You are NOT allowed using this file without creator's permission!
+
+Colors:
+#cdc5b4 - Braun
+#2878ba - Light blue
+#194b74 - Dark blue
+*/
+
+* {
+font-family: Arial, sans-serif;
+}
+
+body {
+background-image:url('http://www.planwallpaper.com/static/images/Full-HD-Wallpapers-5A9.jpg') !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+background-size: cover;
+
+}
+
+.room-background {
+
+background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+::-webkit-scrollbar {
+background:#333;
+}
+
+::-webkit-scrollbar-thumb {
+background:#2878ba !important;
+}
+
+/* Plug Menu */
+
+#app-menu {
+background:transparent;
+border:none;
+box-shadow:none;
+}
+
+#app-menu.open > .button {
+background:#194b74;
+}
+
+#app-menu .button {
+height:53px;
+background:transparent;
+transition:0.3s;
+}
+
+#app-menu .button:hover {
+box-shadow:inset 0 -5px 10px #2878ba !important;
+}
+
+#app-menu .list {
+background:rgba(0,0,0,0.6);
+}
+
+#app-menu .list .item {
+box-shadow:none;
+color:#777;
+transition:0.3s;
+}
+
+#app-menu .list .item:hover {
+background:transparent;
+color:#fff;
+}
+
+#app-menu .list .logout {
+position:relative; left:0; bottom:0;
+width:100%;
+height:55px;
+border:none;
+text-align:left;
+cursor:pointer;
+}
+
+#app-menu .list .logout:hover {
+border:none;
+background:none;
+}
+
+#app-menu .list .logout div {
+margin-left:15px;
+}
+
+#app-menu .list .rcsunload {
+width:100% !important;
+border:none !important;
+cursor:pointer !important;
+}
+
+#app-menu .list .rcsunload:hover {
+border:none !important;
+background:none !important;
+}
+
+#app-menu .list .logout div {
+margin-left:15px;
+}
+
+/* Room Header */
+
+.app-header {
+background-image:url('http://www.planwallpaper.com/static/images/Full-HD-Wallpapers-5A9.jpg') !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+box-shadow:inset 0 -2px 10px #2878ba !important;
+}
+
+.app-header #room-meta {
+background:rgba(0,0,0,0.2);
+
+}
+
+#room-host > .dark-label, #now-playing-dj > .dark-label {
+color:#fff;
+font-weight:bold;
+}
+
+#room-bar {
+transition:0.3s;
+}
+
+#room-bar:hover {
+box-shadow:inset 0 -5px 10px #2878ba !important;
+}
+
+#now-playing-bar > .bar-divider {
+background:#2878ba;
+}
+
+#rs-skip-button {
+background:none !important;
+box-shadow:none !important;
+transition:0.3s;
+}
+
+#rs-skip-button:hover {
+box-shadow:inset 0 -5px 10px #2878ba !important;
+}
+
+#history-button {
+background:none;
+box-shadow:none;
+transition:0.3s;
+}
+
+#history-button:hover {
+box-shadow:inset 0 -5px 10px #2878ba !important;
+}
+
+/* Header Panel Bar */
+
+#header-panel-bar {
+background:rgba(0,0,0,0.2);
+}
+
+.header-panel-button {
+transition:0.3s;
+}
+
+.header-panel-button:hover {
+box-shadow:inset 0 -5px 10px #2878ba !important;
+}
+
+.header-panel-button.selected {
+transition:0.3s;
+box-shadow:inset 0 -10px 10px #2878ba !important;
+}
+
+/* Chat */
+
+#chat {
+background:#000;
+}
+
+#chat-header {
+background:#2878ba;
+}
+
+#chat-header .divider {
+display:none !important;
+}
+
+#chat .cm:nth-child(2n+1) {
+background:#222;
+}
+
+#chat-input {
+background:#222;
+}
+
+#chat-input.focused {
+box-shadow:none !important;
+border:1px solid #2878ba;
+}
+
+#chat .delete-button {
+top:1px;
+padding:5px;
+transition:0.3s;
+}
+
+#chat .delete-button:hover {
+padding:10px;
+background:#2878ba;
+}
+
+.rcs-delete {
+background:#444A59 !important;
+font-weight:500 !important;
+transition:0.3s;
+}
+
+.rcs-delete:hover {
+background:#2878ba !important;
+}
+
+#chat .from.dj .un, #chat .from.staff .un {
+color:#2878ba;
+}
+
+#chat .moderation, #chat .moderation .from {
+color:#2878ba;
+}
+
+/* User Lists */
+
+#user-lists {
+background:#000;
+}
+
+#user-lists .header {
+background:#2878ba;
+}
+
+#user-lists .header .divider.left {
+display:none;
+}
+
+#user-lists .header .divider.right {
+display:none;
+}
+
+#user-lists .list-header .input-background {
+background:#222;
+}
+
+#user-lists .list .user {
+transition:0.3s;
+margin:5px;
+}
+
+#user-lists .list .user:hover {
+box-shadow:inset 3px 0px 0px #fff;
+}
+
+#user-lists .list .user.is-staff:hover {
+box-shadow:inset 3px 0px 0px #2878ba;
+}
+
+#user-lists .list .user.is-subscriber:hover {
+box-shadow:inset 3px 0px 0px #c59840 !important;
+}
+
+#user-lists .list .user.is-subscriber.silver:hover {
+box-shadow:inset 3px 0px 0px #8694b2 !important;
+}
+
+.is-dj .name, .is-staff .name {
+color:#2878ba;
+}
+
+.jspDrag, .jspDrag:hover {
+background: #2878ba;
+}
+
+#user-lists .list.staff .user:hover {
+box-shadow:inset 3px 0px 0px #2878ba;
+}
+
+#user-lists .list.staff .group {
+background:#1c1f25;
+}
+
+#user-lists .list.bans .user:hover, #user-lists .list.mutes .user:hover {
+box-shadow:inset 3px 0px 0px #2878ba;
+}
+
+#user-lists .list.bans .user .label, #user-lists .list.mutes .user .label {
+color:#2878ba;
+}
+
+#user-lists .list.bans .user .timestamp, #user-lists .list.mutes .user .expires {
+color:#999;
+}
+
+#user-lists .list.bans .user .duration {
+color:#666;
+}
+
+#user-lists .list.bans .user .unban, #user-lists .list.mutes .user .unmute {
+color:#fff;
+background:#1c1f25;
+padding:5px;
+transition:0.3s;
+}
+
+#user-lists .list.bans .user .unban:hover , #user-lists .list.mutes .user .unmute:hover {
+color:#fff;
+background:#2878ba;
+}
+
+/* DJs */
+
+#rcs-appright-settings .header, #waitlist .header {
+background:#2878ba;
+}
+
+#waitlist .header .divider.left, #waitlist .header .divider.right {
+background:#2878ba;
+}
+
+#waitlist .list .user {
+transition:0.3s;
+}
+
+#waitlist .list .user:hover {
+box-shadow:inset 3px 0px 0px #2878ba;
+}
+
+/* Friends */
+
+.app-right .friends.has-requests .list-header {
+background:#2878ba;
+top:0px;
+}
+
+.app-right .friends.has-requests .header {
+top:49px;
+}
+
+.app-right .friends .list-header {
+background:#2878ba;
+top:0px;
+}
+
+.app-right .friends .list-header .divider {
+background:#2878ba;
+}
+
+.app-right .friends .list-header input {
+background:#222 !important;
+}
+
+#friends-button.notify .request-count {
+background:#2878ba;
+padding:4px 4px;
+border-radius:16px;
+}
+
+.app-right .friends .header i {
+background:#2878ba;
+}
+
+.list .jspContainer .jspPane {
+width:333px !important;
+}
+
+.app-right .friends .list .row {
+transition:0.3s;
+}
+
+.app-right .friends .list .row:hover {
+box-shadow:inset 3px 0px 0px #2878ba;
+background:rgba(40,120,186,0.3) !important;
+}
+
+.app-right .friends .list .row .room {
+transition:0.3s;
+right:-6px;
+}
+
+.app-right .friends .list .row .room:hover {
+background:#2878ba;
+color:#fff;
+padding:12px;
+top:-10px;
+}
+
+.app-right .friends .list .row.clickable .room:hover {
+text-decoration:none;
+}
+
+.app-right .friends .list .row.is-offline:hover {
+box-shadow:inset 3px 0px 0px #cc5151;
+background:rgba(204,81,81,0.2) !important;
+}
+
+.app-right .friends .list .row.is-offline .room:hover {
+background:#cc5151 !important;
+}
+
+/* User Rollover */
+
+#user-rollover {
+background:rgba(0,0,0,0.8);
+}
+
+#user-rollover.is-staff .thumb, #waitlist .is-staff .thumb {
+border-color:#2878ba !important;
+}
+
+#user-rollover .subscriber.silver .thumb, #waitlist .is-subscriber .thumb {
+border-color:#8694b2 !important;
+}
+
+#user-rollover.role-subscriber .info {
+background:transparent;
+box-shadow:inset 0px 0px 30px #C59840;
+}
+
+#user-rollover .info {
+background:transparent;
+box-shadow:inset 0px 0px 30px #C59840;
+}
+
+#user-rollover.is-staff .info {
+background:transparent;
+box-shadow:inset 0px 0px 30px #2878ba;
+}
+
+#user-rollover.can-giftsub .info {
+background:rgba(98,98,100,0.6);
+box-shadow:none;
+}
+
+#user-rollover.is-ambassador .info {
+background:transparent;
+box-shadow:inset 0px 0px 30px #89be6c;
+}
+
+#user-rollover.is-admin .info {
+background:transparent;
+box-shadow:inset 0px 0px 30px #42a5dc;
+}
+
+#user-rollover.is-staff .info .role span {
+color:#2878ba;
+}
+
+#user-rollover .actions .action.giftsub {transition:0.3s;}
+#user-rollover .actions .action.giftsub:hover {box-shadow:inset 0px 0px 50px #C59840;background:transparent;}
+
+#user-rollover .actions .action.skip,
+#user-rollover .actions .action.mention,
+#user-rollover .actions .action.gift,
+#user-rollover .actions .action.friend,
+#user-rollover .actions .action.mod-dj,
+#user-rollover .actions .action.mod-staff {
+transition:0.3s;
+}
+
+#user-rollover .actions .action.skip:hover,
+#user-rollover .actions .action.mention:hover,
+#user-rollover .actions .action.gift:hover,
+#user-rollover .actions .action.friend:hover,
+#user-rollover .actions .action.mod-dj:hover,
+#user-rollover .actions .action.mod-staff:hover {
+box-shadow:inset 0px 0px 50px #2878ba;
+background:transparent;
+}
+
+#user-rollover .actions .action.ignore,
+#user-rollover .actions .action.mod-staff,
+#user-rollover .actions .action.mod-mute,
+#user-rollover .actions .action.mod-ban {
+transition:0.3s;
+}
+
+#user-rollover .actions .action.ignore:hover,
+#user-rollover .actions .action.mod-mute:hover,
+#user-rollover .actions .action.mod-ban:hover {
+box-shadow:inset 0px 0px 50px #CC5151;
+background:transparent;
+}
+
+.id-4006230 .meta {
+height:180px !important;
+}
+
+.id-4006230 .meta .username:after {
+content: "\A" url('http://i.imgur.com/FRt3DUc.png') " Room Designer \A" url('http://i.imgur.com/uyZqXSz.png') " PinguiN.maweb.eu \A"
+url('http://i.imgur.com/10CQlhP.png') " lolicek77";
+white-space: pre;
+font-size: 10pt;
+display: block;
+margin-top: 62px;
+color: rgb(128, 134, 145);
+font-weight: 400;
+cursor: text;
+}
+
+/* Footer */
+
+#footer-user {
+background:#000;
+}
+
+#footer-user .buttons {
+height:54px;
+top:0;
+}
+
+#footer-user .buttons .button {
+box-shadow:none;
+transition:0.3s;
+}
+
+#footer-user .buttons .button:hover,
+#footer-user .buttons .button.store:hover,
+#footer-user .buttons .button.inventory:hover {
+box-shadow:inset 0px 0px 50px #2878ba;
+background:transparent;
+}
+
+#footer {
+background:#000;
+}
