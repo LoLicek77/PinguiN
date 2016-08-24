@@ -1,0 +1,630 @@
+/*
+# Room:			PartyMusic
+# Author:		-PinguiN-
+# Made for:		https://plug.dj/partymusic-cz-sk
+# Created:		23.8.2016
+## WARNING ##
+You are NOT allowed using this file without creator's permission!
+
+Light Green
+#0FB8AD
+(15,184,173)
+
+Light Blue
+#2CB5E8
+(44,181,232)
+
+Light Purple
+#905190
+(144,81,144)
+
+Light Red
+#FF6768
+(255,103,104)
+
+*/
+
+* {
+font-family: Arial, sans-serif;
+}
+
+/* Plug Menu */
+
+#app-menu {
+background:rgba(44,181,232,0.4);
+border:none;
+}
+
+#app-menu.open {
+border:none;
+box-shadow:1px 0px 20px #333;
+}
+
+#app-menu .button {
+background:#0FB8AD;
+height:54px;
+transition:0.3s;
+}
+
+#app-menu .button:hover {
+box-shadow:0px 0px 0px #777, inset 0 0 10px #333 !important;
+}
+
+#app-menu.open .button {
+background:#2CB5E8;
+}
+
+#app-menu.open .button:hover {
+box-shadow:none !important;
+}
+
+#app-menu.in-room .button {
+box-shadow:1px 0px 10px #777;
+}
+
+#app-menu .list {
+background:transparent;
+}
+
+#app-menu .list .item {
+transition:0.3s;
+box-shadow:none;
+}
+
+#app-menu .list .item:hover {
+background:rgba(40,120,186,0.4);
+}
+
+#app-menu .list .logout {
+position:relative; left:0; bottom:0;
+width:100%;
+height:55px;
+border:none;
+text-align:left;
+cursor:pointer;
+transition:0.3s;
+}
+
+#app-menu .list .logout div {
+position:relative;
+top:16px;
+float:left;
+margin-left:15px;
+}
+
+#app-menu .list .logout:hover {
+border:none;
+background:rgba(40,120,186,0.4);
+}
+
+#app-menu .list .rcsunload {
+border:none !important;
+width:100% !important;
+left:0 !important;
+height:55px !important;
+text-align:left !important;
+transition:0.3s;
+}
+
+#app-menu .list .rcsunload div {
+position:relative !important;
+top:16px !important;
+float:left !important;
+margin-left:20px !important;
+}
+
+#app-menu .list .rcsunload:hover {
+border:none !important;
+background:rgba(40,120,186,0.4) !important;
+}
+
+/* Header */
+
+.app-header {
+background:linear-gradient(#0fb8ad, #2cb5e8);
+box-shadow:0px 1px 20px #333;
+}
+
+.bar-divider {
+background:#fff;
+}
+
+#rs-skip-button {
+background:#0FB8AD !important;
+box-shadow:-1px 0px 10px #777 !important;
+right:54px !important;
+transition:0.3s !important;
+}
+
+#rs-skip-button:hover {
+box-shadow:0px 0px 0px #777, inset 0 0 10px #333 !important;
+}
+
+#history-button {
+background:#0FB8AD;
+box-shadow:none;
+z-index:2;
+transition:0.3s;
+}
+
+#history-button:hover {
+box-shadow:inset 0 0 10px #333 !important;
+}
+
+#history-button.selected {
+box-shadow:inset 0 0 20px #333 !important;
+background:linear-gradient(#0fb8ad, #2cb5e8);
+transition:0.3s;
+}
+
+#header-panel-bar {
+background:#0fb8ad;
+}
+
+.right-meta {
+z-index:0;
+}
+
+#room .app-right {
+background:#222;
+}
+
+.header-panel-button {
+border:none;
+transition:0.3s;
+}
+
+.header-panel-button:hover {
+box-shadow:inset 0 0 10px #333 !important;
+}
+
+.header-panel-button.selected {
+box-shadow:inset 0 0 20px #333 !important;
+background:linear-gradient(#0fb8ad, #2cb5e8);
+}
+
+#waitlist-button .count {
+color:#fff;
+}
+
+#friends-button .request-count {
+background:#fff;
+box-shadow:inset 0px 0px 10px #888;
+border-radius:16px;
+padding:4px 4px;
+color:#0fb8ad;
+}
+
+/* Chat */
+
+#chat-header {
+background:#2CB5E8;
+border:none !important;
+height:47px;
+}
+
+#chat-header .divider {
+display:none;
+}
+
+#chat-messages {
+background:rgba(44,181,232,0.2);
+border:none !important;
+}
+
+#chat .welcome {
+color:#0fb8ad;
+}
+
+#chat .welcome:before {
+content:"";
+background:url('http://i.imgur.com/vbsVSpa.png');
+width:300px; height:80px;
+display:block;
+margin:0 auto;
+z-index:3!important;
+}
+
+#chat .cm:nth-child(2n+1) {
+background:rgba(15,184,173,0.1);
+}
+
+#chat .mention.role-none {
+box-shadow:inset 0px 0px 10px #fff !important;
+background:rgba(15,184,173,0.1) !important;
+}
+
+#chat .mention.role-host, #chat .mention.role-cohost, #chat .mention.role-manager, #chat .mention.role-bouncer, #chat .mention.role-dj {
+box-shadow:inset 0px 0px 10px #0fb8ad !important;
+background:transparent !important;
+}
+
+#chat .mention .msg .text .name {
+color:#2CB5E8;
+}
+
+#chat-messages .timestamp {
+color:#aaa;
+}
+
+#chat .delete-button, .rcs-delete {
+transition:0.3s !important;
+padding:5px !important;
+top:0 !important;
+right:0 !important;
+box-shadow:inset 0 0 10px #000 !important;
+width:50px;
+text-align:center;
+}
+
+#chat .delete-button:hover, .rcs-delete:hover {
+background:#FF6768 !important;
+box-shadow:inset 0 0 30px #000 !important;
+}
+
+#chat .rs-log-orange, #chat .rs-log-user-leave, #chat .rs-log-history {
+border-left: #FF6768 3px solid !important;
+color:#FF6768 !important;
+}
+
+#chat .rs-log-green, #chat .rs-log-user-friend-join, #chat .rs-log-user-woot {
+border-left: #a6bd58 3px solid !important;
+color:#a6bd58 !important;
+}
+
+#chat .from.dj .un, #chat .from.staff .un {
+color:#0FB8AD;
+}
+
+#chat-input {
+background:rgba(44,181,232,0.2);
+transition:0.3s;
+}
+
+#chat-input.focused {
+box-shadow:inset 0 0 10px #333 !important;
+}
+
+/* User List */
+
+#user-lists .header, #waitlist .header {
+background:#2CB5E8;
+border:none !important;
+height:47px;
+}
+
+#user-lists .header .divider {
+display:none;
+}
+
+#user-lists .header .button {
+border:none !important;
+transition:0.3s;
+height:47px;
+top:0 !important;
+}
+
+#user-lists .header .button .icon {
+top:10px !important;
+}
+
+#user-lists .header .button.room.selected {box-shadow:inset 0px -5px 30px #fff;}
+#user-lists .header .button.staff.selected {box-shadow:inset 0px -5px 30px #fff;}
+#user-lists .header .button.bans.selected {box-shadow:inset 0px -5px 30px #FF6768;}
+#user-lists .header .button.mutes.selected {box-shadow:inset 0px -5px 30px #FF6768;}
+#user-lists .header .button.ignored.selected {box-shadow:inset 0px -5px 30px #FF6768;}
+
+#user-lists .list-header .input-background {
+background:rgba(44,181,232,0.2);
+box-shadow:none;
+transition:0.3s;
+}
+
+#user-lists .list-header .input-background.focused {
+box-shadow:inset 0 0 10px #333 !important;
+}
+
+#user-lists .list-header, #user-lists .list {
+background:rgba(44,181,232,0.2);
+}
+
+#user-lists .list .user {
+transition:0.3s;
+height:38px;
+}
+
+#user-lists .list .user.is-staff:hover {
+box-shadow:inset 3px 0px 0px #0FB8AD;
+}
+
+#user-lists .list .user.is-subscriber:hover {
+box-shadow:inset 3px 0px 0px #c59840;
+}
+
+#user-lists .list .user.is-subscriber.silver:hover {
+box-shadow:inset 3px 0px 0px #8694b2;
+}
+
+#user-lists .list .user:hover {
+box-shadow:inset 3px 0px 0px #fff;
+background:rgba(15,184,173,0.1);
+}
+
+#user-lists .list.room .user i, #user-lists .list.room .user i.icon-chat-dj {
+top:12px;
+}
+
+#user-lists .list.room .user i.icon-chat-subscriber, #user-lists .list.room .user i.icon-chat-silver-subscriber {
+top:12px !important;
+}
+
+#user-lists .list.room .user i.icon-woot, #user-lists .list.room .user i.icon-meh, #user-lists .list.room .user i.icon-grab {
+top:5px !important;
+}
+
+#user-lists .list .user .name{
+top:11px;
+}
+
+.is-dj .name, .is-staff .name {
+color:#0FB8AD;
+}
+
+#user-lists .list.staff .group {
+background:rgba(15,184,173,0.2);
+border:none;
+width:345px;
+}
+
+#user-lists .list.staff .user:hover {
+background:rgba(15,184,173,0.1);
+box-shadow:none;
+}
+
+#user-lists .list.bans .user {
+transition:0.3s;
+}
+
+#user-lists .list.bans .user:hover, #user-lists .list.ignored .user:hover, #user-lists .list.mutes .user:hover  {
+background:rgba(15,184,173,0.1);
+box-shadow:none;
+}
+
+#user-lists .list.bans .user .label, #user-lists .list.mutes .user .label {
+color:#0FB8AD;
+}
+
+#user-lists .list.bans .user .timestamp, #user-lists .list.mutes .user .expires, #user-lists .list.bans .user .duration {
+color:#aaa;
+}
+
+#user-lists .list.bans .user .unban, #user-lists .list.mutes .user .unmute {
+color:#0FB8AD;
+}
+
+#user-lists .list.ignored .user .name, #user-lists .list.ignored .user .unignore {
+top:10px;
+}
+
+#user-lists .list.ignored .user:hover {
+box-shadow:none;
+}
+
+/* Waitlist */
+
+#waitlist {
+background:rgba(44,181,232,0.2);
+}
+
+#waitlist .header .divider {
+display:none;
+}
+
+#waitlist .header .title, #waitlist .header .position {
+top:15px;
+}
+
+#waitlist .header .count {
+color:#fff;
+}
+
+#waitlist .list .user {
+background:transparent;
+}
+
+#waitlist .list .user:hover {
+background:rgba(15,184,173,0.1);
+}
+
+#waitlist .list.manager .user .meta {
+border:none;
+}
+
+#user-rollover.is-staff .thumb, #waitlist .is-staff .thumb {
+border-color:#0FB8AD !important;
+}
+
+/* Friends */
+
+.app-right .friends {
+background:rgba(44,181,232,0.2);
+}
+
+.app-right .friends .list-header {
+background:#2CB5E8;
+border:none;
+}
+
+.app-right .friends.has-requests .list-header {
+top:0;
+}
+
+.app-right .friends .header {
+top:47px;
+transition:0.3s;
+background:#0FB8AD;
+border-radius:0px 0px 10px 10px;
+}
+
+.app-right .friends .header:hover {
+box-shadow:inset 0px 2px 10px #000;
+}
+
+.app-right .friends .list-header .divider {
+display:none;
+}
+
+.app-right .friends .list-header .input-background {
+background:rgba(137,190,108,0.2);
+transition:0.3s;
+box-shadow:inset 0 0 2px #333 !important;
+}
+
+.app-right .friends .list-header .input-background.focused {
+box-shadow:inset 0 0 10px #333 !important;
+}
+
+.app-right .friends .list .row {
+transition:0.3s;
+}
+
+.app-right .friends .list .row:hover {
+background:rgba(137,190,108,0.1);
+box-shadow:inset 3px 0px 0px #89BE6C;
+}
+
+.app-right .friends .list .row.is-offline:hover {
+background:rgba(255,103,104,0.1);
+box-shadow:inset 3px 0px 0px #FF6768;
+transition:0.3s;
+}
+
+.app-right .friends .list .row .room {
+transition:0.3s;
+}
+
+.app-right .friends .list .row:hover .room {
+background:#89BE6C;
+padding:12px;
+top:-10px;
+color:#fff;
+text-decoration:none;
+}
+
+.app-right .friends .list .row.clickable .room:hover {
+text-decoration:none;
+}
+
+.app-right .friends .list .row.is-offline:hover .room {
+background:#FF6768;
+padding:10px;
+top:-10px;
+color:#fff;
+}
+
+/* RCS */
+
+#rcs-menu {
+background:rgba(44,181,232,0.2);
+}
+
+#rcs-menu .header {
+background:#2CB5E8;
+}
+
+#rcs-menu .search {
+background:rgba(44,181,232,0.2) !important;
+transition:0.3s !important;
+}
+
+#rcs-menu .search.focused {
+box-shadow:inset 0 0 10px #333 !important;
+}
+
+#rcs-menu .group {
+border:none !important;
+background:#0fb8ad;
+transition:0.3s;
+}
+
+#rcs-menu .group:hover {
+box-shadow:inset 0 0 10px #000;
+}
+
+#rcs-menu .group i {
+top:12px !important;
+}
+
+#rcs-menu .group span {
+top:10px !important;
+}
+
+#rcs-menu .rsrow {
+transition:0.3s;
+}
+
+#rcs-menu .rsrow:hover {
+background:rgba(15,184,173,0.1);
+}
+
+/* Footer */
+
+#footer-user .buttons {
+background:#0FB8AD;
+box-shadow:none;
+border:none;
+top: 0;
+height: 54px;
+box-shadow:-1px 0px 10px #777;
+z-index:25;
+}
+
+#footer-user .buttons .button {
+box-shadow:none;
+transition:0.3s;
+}
+
+#footer-user .buttons .button:hover {
+box-shadow:inset 0px 0px 10px #000 !important;
+background:linear-gradient(#0fb8ad, #2cb5e8) !important;
+}
+
+#footer-user .info.showing {
+background:#214B54;
+box-shadow:inset 0 0 10px #000;
+border-radius:10px 10px 0px 0px !important;
+}
+
+#footer-user .info .bar {
+background:#333;
+border-radius:5px;
+}
+
+#footer-user .info .bar .progress {
+background:#0fb8ad;
+border-radius:5px;
+}
+
+#playlist-meta {
+background:linear-gradient(#2cb5e8, #0fb8ad) !important;
+}
+
+#footer .bar-button .section .chevron:before, #footer .bar-button .section .chevron:after {
+background:#fff;
+}
+
+#playlist-button {
+background:#0FB8AD !important;
+box-shadow:1px 0px 10px #777 !important;
+right:54px !important;
+transition:0.3s !important;
+}
+
+#playlist-button:hover {
+box-shadow:0px 0px 0px #777, inset 0 0 10px #333 !important;
+}
+
+#search {
+background:#2cb5e8;
+box-shadow:inset 0 1px 10px #777, inset -1px 0 10px #777;
+}
