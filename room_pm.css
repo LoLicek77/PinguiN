@@ -41,7 +41,7 @@ box-shadow:1px 0px 20px #333;
 }
 
 #app-menu .button {
-background:#0FB8AD;
+background:#2CB5E8;
 height:54px;
 transition:0.3s;
 }
@@ -121,8 +121,12 @@ background:rgba(40,120,186,0.4) !important;
 /* Header */
 
 .app-header {
-background:linear-gradient(#0fb8ad, #2cb5e8);
-box-shadow:0px 1px 20px #333;
+background:rgba(40,120,186,0.8);
+box-shadow:0px 1px 20px #333, inset 0 0 30px #333;
+}
+
+.dark-label {
+color:#ccc;
 }
 
 .bar-divider {
@@ -130,7 +134,7 @@ background:#fff;
 }
 
 #rs-skip-button {
-background:#0FB8AD !important;
+background:#2CB5E8 !important;
 box-shadow:-1px 0px 10px #777 !important;
 right:54px !important;
 transition:0.3s !important;
@@ -141,7 +145,7 @@ box-shadow:0px 0px 0px #777, inset 0 0 10px #333 !important;
 }
 
 #history-button {
-background:#0FB8AD;
+background:#2CB5E8;
 box-shadow:none;
 z-index:2;
 transition:0.3s;
@@ -152,13 +156,13 @@ box-shadow:inset 0 0 10px #333 !important;
 }
 
 #history-button.selected {
-box-shadow:inset 0 0 20px #333 !important;
-background:linear-gradient(#0fb8ad, #2cb5e8);
+box-shadow:inset 0 0 30px #333 !important;
+background:rgba(40,120,186,0.8);
 transition:0.3s;
 }
 
 #header-panel-bar {
-background:#0fb8ad;
+background:#2CB5E8;
 }
 
 .right-meta {
@@ -179,8 +183,8 @@ box-shadow:inset 0 0 10px #333 !important;
 }
 
 .header-panel-button.selected {
-box-shadow:inset 0 0 20px #333 !important;
-background:linear-gradient(#0fb8ad, #2cb5e8);
+box-shadow:inset 0 0 30px #333 !important;
+background:rgba(40,120,186,0.8);
 }
 
 #waitlist-button .count {
@@ -192,7 +196,7 @@ background:#fff;
 box-shadow:inset 0px 0px 10px #888;
 border-radius:16px;
 padding:4px 4px;
-color:#0fb8ad;
+color:#2CB5E8;
 }
 
 /* Chat */
@@ -213,7 +217,7 @@ border:none !important;
 }
 
 #chat .welcome {
-color:#0fb8ad;
+color:#2CB5E8;
 }
 
 #chat .welcome:before {
@@ -235,7 +239,7 @@ background:rgba(15,184,173,0.1) !important;
 }
 
 #chat .mention.role-host, #chat .mention.role-cohost, #chat .mention.role-manager, #chat .mention.role-bouncer, #chat .mention.role-dj {
-box-shadow:inset 0px 0px 10px #0fb8ad !important;
+box-shadow:inset 0px 0px 10px #2CB5E8 !important;
 background:transparent !important;
 }
 
@@ -273,7 +277,7 @@ color:#a6bd58 !important;
 }
 
 #chat .from.dj .un, #chat .from.staff .un {
-color:#0FB8AD;
+color:#2CB5E8;
 }
 
 #chat-input {
@@ -334,7 +338,7 @@ height:38px;
 }
 
 #user-lists .list .user.is-staff:hover {
-box-shadow:inset 3px 0px 0px #0FB8AD;
+box-shadow:inset 3px 0px 0px #2CB5E8;
 }
 
 #user-lists .list .user.is-subscriber:hover {
@@ -367,11 +371,11 @@ top:11px;
 }
 
 .is-dj .name, .is-staff .name {
-color:#0FB8AD;
+color:#2CB5E8;
 }
 
 #user-lists .list.staff .group {
-background:rgba(15,184,173,0.2);
+background:#2CB5E8;
 border:none;
 width:345px;
 }
@@ -391,7 +395,7 @@ box-shadow:none;
 }
 
 #user-lists .list.bans .user .label, #user-lists .list.mutes .user .label {
-color:#0FB8AD;
+color:#2CB5E8;
 }
 
 #user-lists .list.bans .user .timestamp, #user-lists .list.mutes .user .expires, #user-lists .list.bans .user .duration {
@@ -399,7 +403,7 @@ color:#aaa;
 }
 
 #user-lists .list.bans .user .unban, #user-lists .list.mutes .user .unmute {
-color:#0FB8AD;
+color:#2CB5E8;
 }
 
 #user-lists .list.ignored .user .name, #user-lists .list.ignored .user .unignore {
@@ -441,7 +445,7 @@ border:none;
 }
 
 #user-rollover.is-staff .thumb, #waitlist .is-staff .thumb {
-border-color:#0FB8AD !important;
+border-color:#2CB5E8 !important;
 }
 
 /* Friends */
@@ -462,7 +466,7 @@ top:0;
 .app-right .friends .header {
 top:47px;
 transition:0.3s;
-background:#0FB8AD;
+background:rgba(44,181,232,0.4);
 border-radius:0px 0px 10px 10px;
 }
 
@@ -543,7 +547,7 @@ box-shadow:inset 0 0 10px #333 !important;
 
 #rcs-menu .group {
 border:none !important;
-background:#0fb8ad;
+background:#2CB5E8;
 transition:0.3s;
 }
 
@@ -570,13 +574,17 @@ background:rgba(15,184,173,0.1);
 /* Footer */
 
 #footer-user .buttons {
-background:#0FB8AD;
+background:#2CB5E8 !important;
 box-shadow:none;
 border:none;
 top: 0;
 height: 54px;
-box-shadow:-1px 0px 10px #777;
+box-shadow:-1px 0px 10px #333;
 z-index:25;
+}
+
+#footer-user .buttons:hover {
+box-shadow:none !important;
 }
 
 #footer-user .buttons .button {
@@ -585,13 +593,13 @@ transition:0.3s;
 }
 
 #footer-user .buttons .button:hover {
-box-shadow:inset 0px 0px 10px #000 !important;
-background:linear-gradient(#0fb8ad, #2cb5e8) !important;
+box-shadow:inset 0 0 30px #333 !important;
+background:rgba(40,120,186,0.8) !important;
 }
 
 #footer-user .info.showing {
-background:#214B54;
-box-shadow:inset 0 0 10px #000;
+box-shadow:inset 0 0 30px #333 !important;
+background:rgba(40,120,186,0.8);
 border-radius:10px 10px 0px 0px !important;
 }
 
@@ -601,20 +609,21 @@ border-radius:5px;
 }
 
 #footer-user .info .bar .progress {
-background:#0fb8ad;
+background:#2CB5E8;
 border-radius:5px;
 }
 
 #playlist-meta {
-background:linear-gradient(#2cb5e8, #0fb8ad) !important;
+background:rgba(40,120,186,0.8);
+box-shadow:0px 1px 20px #333, inset 0 0 30px #333;
 }
 
 #footer .bar-button .section .chevron:before, #footer .bar-button .section .chevron:after {
-background:#fff;
+background:#2CB5E8;
 }
 
 #playlist-button {
-background:#0FB8AD !important;
+background:#2CB5E8 !important;
 box-shadow:1px 0px 10px #777 !important;
 right:54px !important;
 transition:0.3s !important;
