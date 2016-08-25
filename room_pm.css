@@ -188,7 +188,11 @@ background:rgba(40,120,186,0.8);
 }
 
 #waitlist-button .count {
-color:#fff;
+color:#ccc;
+}
+
+#users-button.has-guests span.guest-count {
+color:#ccc;
 }
 
 #friends-button .request-count {
