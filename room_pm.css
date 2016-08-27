@@ -11,7 +11,8 @@ You are NOT allowed using this file without creator's permission!
 	font-family:Tahoma, sans-serif !important;
 }
 
-.icon{background-image:url('http://i.imgur.com/CakWhe1.png')}
+.icon{background-image:url('http://i.imgur.com/h7AHd4j.png')}
+.room-background{background:url('http://i.imgur.com/cuQHzel.jpg') !important;}
 
 /* Plug Menu */
 
@@ -181,12 +182,8 @@ You are NOT allowed using this file without creator's permission!
 	color:#4aaee7 !important;
 }
 
-#chat .role-host .un, #chat .role-cohost .un {
-color:#4aaee7 !important;
-}
-
-#chat .role-manager .un, #chat .role-bouncer .un, #chat .role-dj .un {
-	color:#4aaee7 !important;
+#chat .role-host .un, #chat .role-cohost .un, #chat .role-manager .un, #chat .role-bouncer .un, #chat .dj .un {
+	color:#1CA949 !important;
 }
 
 #chat .delete-button {
@@ -252,7 +249,7 @@ color:#4aaee7 !important;
 
 #user-lists .header .button.staff.selected {
 	border:none;
-	box-shadow:inset 0 0 30px #4aaee7;
+	box-shadow:inset 0 0 30px #1CA949;
 }
 
 #user-lists .header .button.bans.selected,
@@ -270,23 +267,17 @@ color:#4aaee7 !important;
 	background:#324558;
 }
 
-#user-lists .list .user.role-host:hover,
-#user-lists .list .user.role-cohost:hover {
-box-shadow:inset 3px 0px 0px #4aaee7 !important;
-	color:#4aaee7 !important;
-}
-
 #user-lists .list .user.role-host .name,
 #user-lists .list .user.role-cohost .name {
-	color:#4aaee7 !important;
+	color:#1CA949 !important;
 }
 
 #user-lists .list .user.is-staff:hover {
-	box-shadow:inset 3px 0px 0px #4aaee7;
+	box-shadow:inset 3px 0px 0px #1CA949;
 }
 
 #user-lists .list .user.is-staff .name {
-	color:#4aaee7;
+	color:#1CA949;
 }
 
 #user-lists .list.staff .group {
@@ -315,24 +306,8 @@ box-shadow:inset 3px 0px 0px #4aaee7 !important;
 }
 
 #waitlist .list .user .is-staff .name {
-	color:#4aaee7;
+	color:#1CA949;
 }
-
-	/*
-	Host/Co-Host
-	# Klaudí
-	# Čáro
-	# Kevin
-	*/
-	#waitlist .list [data-uid="3437401"].user .name span {
-		color:#4aaee7 !important;
-	}
-	#waitlist .list [data-uid="11591166"].user .name span {
-		color:#4aaee7 !important;
-	}
-	#waitlist .list [data-uid="4106134"].user .name span {
-		color:#4aaee7 !important;
-	}
 
 /* Friends */
 
@@ -438,6 +413,7 @@ box-shadow:inset 3px 0px 0px #4aaee7 !important;
 
 #footer {
 	background:#1C3146;
+	box-shadow:0 0 10px #000;
 }
 
 #footer-user .buttons .button {
@@ -460,7 +436,7 @@ box-shadow:inset 3px 0px 0px #4aaee7 !important;
 }
 
 #footer-user .info.is-staff .name span {
-	color:#fff;
+	color:#1CA949;
 }
 
 #footer-user .info .meta div.bar {
@@ -484,6 +460,95 @@ box-shadow:inset 3px 0px 0px #4aaee7 !important;
 #playlist-button {
 	background:#2878ba;
 }
+
+/* Plug Place */
+
+#dj-button {
+	background:rgba(0,0,0,0.3);
+}
+
+#dj-button.is-leave .left, #dj-button.is-quit .left {
+	background:rgba(192,64,67,0.6);
+}
+
+#dj-button .left {
+	background:rgba(74,174,231,0.4);
+}
+
+#vote {
+	background:rgba(0,0,0,0.3);
+	border-radius:0 0 20px 20px;
+}
+
+#vote #woot, #vote #grab, #vote #meh {
+	background:transparent;
+}
+
+.votes-rs {
+	background:rgba(0,0,0,0.6) !important;
+}
+
+	/* Woot */
+
+	.votes-rs .title.woot {
+		background:#1CA949 !important;
+	}
+
+	#vote #woot .bottom {
+		box-shadow:inset 0 -3px 0 #1CA949;
+		background:none;
+		border-radius:0 0 0 20px;
+	}
+
+	#vote #woot.selected {
+		box-shadow:inset 0 0 30px #1CA949;
+		background:none;
+		border-radius:0 0 0 20px;
+	}
+
+	/* Grab */
+
+	.votes-rs .title.grab {
+		background:#4aaee7 !important;
+	}
+
+	#vote #grab .bottom {
+		box-shadow:inset 0 -3px 0 #4aaee7;
+		background:none;
+	}
+
+	#vote #grab.selected {
+		box-shadow:inset 0 0 30px #4aaee7;
+		background:none;
+	}
+
+	.pop-menu.grab .bar {
+		background:rgba(74,174,231,0.6) !important;
+	}
+
+	.pop-menu.grab li:hover {
+		background:rgba(74,174,231,0.3) !important;
+	}
+
+	/* Meh */
+
+	.votes-rs .title.meh {
+		background:#C04043 !important;
+	}
+
+	#vote #meh .bottom {
+		box-shadow:inset 0 -3px 0 #C04043;
+		background:none;
+		border-radius:0 0 20px 0;
+	}
+
+	#vote #meh.selected {
+		box-shadow:inset 0 0 30px #C04043;
+		background:none;
+		border-radius:0 0 20px 0;
+	}
+
+/* Custom CSS */
 
 [data-cid^="4006230-"] .msg .from .un {
 	position: relative;
