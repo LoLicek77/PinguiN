@@ -11,7 +11,7 @@ You are NOT allowed using this file without creator's permission!
 	font-family:Tahoma, sans-serif !important;
 }
 
-.icon{background-image:url('http://i.imgur.com/jRzB362.png')}
+.icon{background-image:url('http://i.imgur.com/CakWhe1.png')}
 
 /* Plug Menu */
 
@@ -186,7 +186,7 @@ color:#4aaee7 !important;
 }
 
 #chat .role-manager .un, #chat .role-bouncer .un, #chat .role-dj .un {
-	color:#FFA500 !important;
+	color:#4aaee7 !important;
 }
 
 #chat .delete-button {
@@ -252,7 +252,7 @@ color:#4aaee7 !important;
 
 #user-lists .header .button.staff.selected {
 	border:none;
-	box-shadow:inset 0 0 30px #FFA500;
+	box-shadow:inset 0 0 30px #4aaee7;
 }
 
 #user-lists .header .button.bans.selected,
@@ -282,11 +282,11 @@ box-shadow:inset 3px 0px 0px #4aaee7 !important;
 }
 
 #user-lists .list .user.is-staff:hover {
-	box-shadow:inset 3px 0px 0px #FFA500;
+	box-shadow:inset 3px 0px 0px #4aaee7;
 }
 
 #user-lists .list .user.is-staff .name {
-	color:#FFA500;
+	color:#4aaee7;
 }
 
 #user-lists .list.staff .group {
@@ -315,7 +315,7 @@ box-shadow:inset 3px 0px 0px #4aaee7 !important;
 }
 
 #waitlist .list .user .is-staff .name {
-	color:#FFA500;
+	color:#4aaee7;
 }
 
 	/*
