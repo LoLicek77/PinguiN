@@ -629,12 +629,11 @@ color:#1CA949 !important;
 }
 
 #user-menu .avatar {
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c3146+0,4aaee7+80,2878ba+100 */
-background: #1c3146; /* Old browsers */
-background: -moz-linear-gradient(top,  #1c3146 0%, #4aaee7 80%, #2878ba 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #1c3146 0%,#4aaee7 80%,#2878ba 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #1c3146 0%,#4aaee7 80%,#2878ba 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c3146', endColorstr='#2878ba',GradientType=0 ); /* IE6-9 */
+	background: #1c3146;
+	background: -moz-linear-gradient(top,  #1c3146 0%, #4aaee7 80%, #2878ba 100%);
+	background: -webkit-linear-gradient(top,  #1c3146 0%,#4aaee7 80%,#2878ba 100%);
+	background: linear-gradient(to bottom,  #1c3146 0%,#4aaee7 80%,#2878ba 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c3146', endColorstr='#2878ba',GradientType=0 );
 }
 
 #user-menu .item {
@@ -743,7 +742,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c3146', end
 .user-content .tab-menu button {
 	background:#000;
 	box-shadow:inset 0 -3px 0 #444 !important;
-transition:0.5s;
+	transition:0.5s;
 }
 
 .user-content .tab-menu button.selected {
@@ -761,24 +760,22 @@ transition:0.5s;
 
 .user-content .grid .cell .top,
 #user-inventory .badges .grid .cell {
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c3146+0,2989d8+71,207cca+72,1c3146+100 */
-background: rgb(28,49,70); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(28,49,70,1) 0%, rgba(41,137,216,1) 71%, rgba(32,124,202,1) 72%, rgba(28,49,70,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(28,49,70,1) 0%,rgba(41,137,216,1) 71%,rgba(32,124,202,1) 72%,rgba(28,49,70,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(28,49,70,1) 0%,rgba(41,137,216,1) 71%,rgba(32,124,202,1) 72%,rgba(28,49,70,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c3146', endColorstr='#1c3146',GradientType=0 ); /* IE6-9 */
-opacity:0.6;
+	background: rgb(28,49,70);
+	background: -moz-linear-gradient(top,  rgba(28,49,70,1) 0%, rgba(41,137,216,1) 71%, rgba(32,124,202,1) 72%, rgba(28,49,70,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(28,49,70,1) 0%,rgba(41,137,216,1) 71%,rgba(32,124,202,1) 72%,rgba(28,49,70,1) 100%);
+	background: linear-gradient(to bottom,  rgba(28,49,70,1) 0%,rgba(41,137,216,1) 71%,rgba(32,124,202,1) 72%,rgba(28,49,70,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c3146', endColorstr='#1c3146',GradientType=0 );
+	opacity:0.6;
 }
 
 .user-content .grid .cell:hover .top,
 #user-inventory .badges .grid .cell:hover {
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c3146+0,2989d8+71,207cca+72,1c3146+100 */
-background: rgb(28,49,70); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(28,49,70,1) 0%, rgba(41,137,216,1) 71%, rgba(32,124,202,1) 72%, rgba(28,49,70,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(28,49,70,1) 0%,rgba(41,137,216,1) 71%,rgba(32,124,202,1) 72%,rgba(28,49,70,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(28,49,70,1) 0%,rgba(41,137,216,1) 71%,rgba(32,124,202,1) 72%,rgba(28,49,70,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c3146', endColorstr='#1c3146',GradientType=0 ); /* IE6-9 */
-opacity:1;
+	background: rgb(28,49,70);
+	background: -moz-linear-gradient(top,  rgba(28,49,70,1) 0%, rgba(41,137,216,1) 71%, rgba(32,124,202,1) 72%, rgba(28,49,70,1) 100%)
+	background: -webkit-linear-gradient(top,  rgba(28,49,70,1) 0%,rgba(41,137,216,1) 71%,rgba(32,124,202,1) 72%,rgba(28,49,70,1) 100%);
+	background: linear-gradient(to bottom,  rgba(28,49,70,1) 0%,rgba(41,137,216,1) 71%,rgba(32,124,202,1) 72%,rgba(28,49,70,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c3146', endColorstr='#1c3146',GradientType=0 );
+	opacity:1;
 }
 
 #user-inventory .avatars .grid .cell,
@@ -809,22 +806,20 @@ opacity:1;
 
 #user-store .badges .grid .cell .top,
 #user-store .misc .grid .cell .top {
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c3146+0,2989d8+71,207cca+72,1c3146+100 */
-background: rgb(28,49,70); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(28,49,70,1) 0%, rgba(41,137,216,1) 71%, rgba(32,124,202,1) 72%, rgba(28,49,70,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(28,49,70,1) 0%,rgba(41,137,216,1) 71%,rgba(32,124,202,1) 72%,rgba(28,49,70,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(28,49,70,1) 0%,rgba(41,137,216,1) 71%,rgba(32,124,202,1) 72%,rgba(28,49,70,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c3146', endColorstr='#1c3146',GradientType=0 ); /* IE6-9 */
+	background: rgb(28,49,70);
+	background: -moz-linear-gradient(top,  rgba(28,49,70,1) 0%, rgba(41,137,216,1) 71%, rgba(32,124,202,1) 72%, rgba(28,49,70,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(28,49,70,1) 0%,rgba(41,137,216,1) 71%,rgba(32,124,202,1) 72%,rgba(28,49,70,1) 100%);
+	background: linear-gradient(to bottom,  rgba(28,49,70,1) 0%,rgba(41,137,216,1) 71%,rgba(32,124,202,1) 72%,rgba(28,49,70,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c3146', endColorstr='#1c3146',GradientType=0 );
 }
 
 #user-store .badges .grid .cell:hover .top,
 #user-store .misc .grid .cell:hover .top {
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c3146+0,2989d8+71,207cca+72,1c3146+100 */
-background: rgb(28,49,70); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(28,49,70,1) 0%, rgba(41,137,216,1) 71%, rgba(32,124,202,1) 72%, rgba(28,49,70,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(28,49,70,1) 0%,rgba(41,137,216,1) 71%,rgba(32,124,202,1) 72%,rgba(28,49,70,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(28,49,70,1) 0%,rgba(41,137,216,1) 71%,rgba(32,124,202,1) 72%,rgba(28,49,70,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c3146', endColorstr='#1c3146',GradientType=0 ); /* IE6-9 */
+	background: rgb(28,49,70);
+	background: -moz-linear-gradient(top,  rgba(28,49,70,1) 0%, rgba(41,137,216,1) 71%, rgba(32,124,202,1) 72%, rgba(28,49,70,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(28,49,70,1) 0%,rgba(41,137,216,1) 71%,rgba(32,124,202,1) 72%,rgba(28,49,70,1) 100%);
+	background: linear-gradient(to bottom,  rgba(28,49,70,1) 0%,rgba(41,137,216,1) 71%,rgba(32,124,202,1) 72%,rgba(28,49,70,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c3146', endColorstr='#1c3146',GradientType=0 );
 }
 
 /* Friends */
@@ -925,7 +920,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c3146', end
 
 #user-settings .container .subscribe-button {
 	box-shadow:inset 0 0 0 1px transparent, inset 0 0 40px #000;
-transition:0.5s;
+	transition:0.5s;
 }
 
 #user-settings .container .subscribe-button:hover {
@@ -945,27 +940,27 @@ transition:0.5s;
 }
 
 #user-rollover.id-4006230 .meta {
-height:140px !important;
+	height:140px !important;
 }
 
 #user-rollover.id-4006230 .meta .status:after {
-content:"\A" url('http://i.imgur.com/VzJXKT1.png') " Designer";
-color: #7cbf00;
-margin-left: 4px;
-white-space: pre;
-font-size: 12px;
-position: relative;
-text-transform: uppercase;
-font-weight: 600;
-top:3px;
+	content:"\A" url('http://i.imgur.com/VzJXKT1.png') " Designer";
+	color: #7cbf00;
+	margin-left: 4px;
+	white-space: pre;
+	font-size: 12px;
+	position: relative;
+	text-transform: uppercase;
+	font-weight: 600;
+	top:3px;
 }
 
 #user-rollover.id-4006230 .meta .joined {
-top:90px;
+	top:90px;
 }
 
 #user-rollover.id-4006230 .meta .showID {
-top:110px !important;
+	top:110px !important;
 }
 
 [data-cid^="4006230-"] .msg .from .un {
@@ -980,11 +975,11 @@ top:110px !important;
 }
 
 [data-cid^="4006230-"] .msg .from .un:before {
-content: " [DESIGNER] ";
-color:#7cbf00;
+	content: " [DESIGNER] ";
+	color:#7cbf00;
 }
 
 #user-lists .list .user.id-4006230 .name:before {
-content: "[DESIGNER] ";
-color:#7cbf00;
+	content: "[DESIGNER] ";
+	color:#7cbf00;
 }
