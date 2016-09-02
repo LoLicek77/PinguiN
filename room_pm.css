@@ -178,6 +178,10 @@ You are NOT allowed using this file without creator's permission!
 	color:#4aaee7;
 }
 
+#chat .from.dj .un, #chat .from.staff .un {
+	color:#1CA949 !important;
+}
+
 #chat .moderation, #chat .moderation .from, #chat .moderation .from .un {
 	color:#4aaee7 !important;
 }
@@ -457,6 +461,15 @@ You are NOT allowed using this file without creator's permission!
 	transform: rotate(360deg);
 }
 
+#footer-user .back, #footer-user .signup {
+	background:#1C3146;
+transition:0.5s;
+}
+
+#footer-user .back:hover, #footer-user .signup:hover {
+	box-shadow:inset 0 0 20px #000;
+}
+
 #playlist-button {
 	background:#2878ba;
 }
@@ -548,7 +561,412 @@ You are NOT allowed using this file without creator's permission!
 		border-radius:0 0 20px 0;
 	}
 
+/* Playback */
+
+#playback .background img {
+	display:none;
+}
+
+/* User meta */
+
+#user-rollover {
+	background:rgba(0,0,0,0.6);
+	border-radius:10px 10px 0 0;
+}
+
+#user-rollover .info {
+	background:#1C3146;
+}
+
+#user-rollover.is-staff .info .role span {
+color:#1CA949 !important;
+}
+
+#user-rollover.is-staff .thumb, #waitlist .is-staff .thumb {
+	border-color:#4aaee7 !important;
+}
+
+#user-rollover .actions .action {
+	transition:0.5s !important;
+	box-shadow:none;
+}
+
+#user-rollover .actions .action:hover {
+	background:none;
+}
+
+#user-rollover .actions .giftsub:hover {
+	box-shadow:inset 0 0 0 1px #c59840, inset 0 0 40px #000;
+	background:none;
+}
+
+#user-rollover .actions .skip:hover,
+#user-rollover .actions .mention:hover,
+#user-rollover .actions .gift:hover,
+#user-rollover .actions .friend:hover,
+#user-rollover .actions .mod-dj:hover {
+	box-shadow:inset 0 -1px 0 #fff, inset 0 0 40px #000 !important;
+}
+
+#user-rollover .actions .ignore:hover,
+#user-rollover .actions .mod-mute:hover,
+#user-rollover .actions .mod-ban:hover {
+	box-shadow:inset 0 -1px 0 #C04043, inset 0 0 40px #000 !important;
+}
+
+#user-rollover .actions .mod-staff:hover {
+	box-shadow:inset 0 -1px 0 #1CA949, inset 0 0 40px #000 !important;
+}
+
+/* User Menu */
+
+#user-view {
+	background:#000;
+}
+
+#user-menu {
+	background:#1C3146;
+}
+
+#user-menu .avatar {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c3146+0,4aaee7+80,2878ba+100 */
+background: #1c3146; /* Old browsers */
+background: -moz-linear-gradient(top,  #1c3146 0%, #4aaee7 80%, #2878ba 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #1c3146 0%,#4aaee7 80%,#2878ba 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #1c3146 0%,#4aaee7 80%,#2878ba 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c3146', endColorstr='#2878ba',GradientType=0 ); /* IE6-9 */
+}
+
+#user-menu .item {
+	color:#888;
+	transition:0.5s;
+}
+
+#user-menu .item:hover {
+	color:#fff;
+}
+
+#user-menu .item.selected {
+	box-shadow:inset 3px 0 0 #4aaee7;
+	color:#fff;
+	background:none;
+}
+
+#user-menu .item.notify .count {
+	background:#2878BA;
+	border:16px;
+	padding:4px 4px;
+	color:#fff;
+	margin-top:-5px;
+}
+
+/* Profile */
+
+.user-content.profile .meta.is-staff .role span {
+	color:#1CA949;
+}
+
+.user-content.profile .meta .blurb .box {
+	background:#1C3146;
+}
+
+.user-content.profile .meta .blurb input {
+	background:#1C3146;
+	box-shadow:0 0 0 1px #2878ba;
+}
+
+.user-content.profile .meta .joined,
+.user-content.profile .points .label {
+	color:#777;
+}
+
+.user-content .header span {
+	color:#4aaee7;
+}
+
+.experience .xp .bar {
+	height: 30px;
+	background: #000;
+	box-shadow:inset 0 0 0 2px #1C3146;
+	margin:0 auto;
+}
+
+.experience .xp .bar .progress {
+	display: block;
+	height: 100%;
+	background:#1C3146;
+}
+
+
+.experience .levels .level .label,
+.experience .levels .level.mystery .label {
+	background:#1C3146;
+}
+
+.experience .levels .level .label i.icon-sunburst {
+	background:none !important;
+}
+
+.experience .levels .level {
+	background:#111;
+	box-shadow:inset 0 -1px 10px -1px #1C3146;
+	transition:0.5s;
+}
+
+.experience .levels .level:hover {
+	background:#111;
+	box-shadow:inset 0 -1px 10px -1px #2878ba;
+	transition:0.5s;
+}
+
+.experience .levels .level.earned {
+	background:#111;
+	box-shadow:inset 0 -3px 20px -1px #1C3146;
+	transition:0.5s;
+}
+
+.experience .levels .level.earned:hover {
+	box-shadow:inset 0 -3px 20px -2px #2878ba;
+}
+
+.experience .levels .level.earned .label {
+	transition:0.5s;
+}
+
+.experience .levels .level.earned:hover .label {
+	background:#2878ba;
+	transition:0.5s;
+}
+
+/* Items */
+
+.user-content .tab-menu button {
+	background:#000;
+	box-shadow:inset 0 -3px 0 #444 !important;
+transition:0.5s;
+}
+
+.user-content .tab-menu button.selected {
+	background:#000;
+	box-shadow:inset 0 -3px 0 #2878ba !important;
+}
+
+.dropdown {
+	background:#1C3146;
+}
+
+.dropdown dt {
+	box-shadow:inset -39px 0 0 #2878ba;
+}
+
+.user-content .grid .cell .top,
+#user-inventory .badges .grid .cell {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c3146+0,2989d8+71,207cca+72,1c3146+100 */
+background: rgb(28,49,70); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(28,49,70,1) 0%, rgba(41,137,216,1) 71%, rgba(32,124,202,1) 72%, rgba(28,49,70,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(28,49,70,1) 0%,rgba(41,137,216,1) 71%,rgba(32,124,202,1) 72%,rgba(28,49,70,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(28,49,70,1) 0%,rgba(41,137,216,1) 71%,rgba(32,124,202,1) 72%,rgba(28,49,70,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c3146', endColorstr='#1c3146',GradientType=0 ); /* IE6-9 */
+opacity:0.6;
+}
+
+.user-content .grid .cell:hover .top,
+#user-inventory .badges .grid .cell:hover {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c3146+0,2989d8+71,207cca+72,1c3146+100 */
+background: rgb(28,49,70); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(28,49,70,1) 0%, rgba(41,137,216,1) 71%, rgba(32,124,202,1) 72%, rgba(28,49,70,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(28,49,70,1) 0%,rgba(41,137,216,1) 71%,rgba(32,124,202,1) 72%,rgba(28,49,70,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(28,49,70,1) 0%,rgba(41,137,216,1) 71%,rgba(32,124,202,1) 72%,rgba(28,49,70,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c3146', endColorstr='#1c3146',GradientType=0 ); /* IE6-9 */
+opacity:1;
+}
+
+#user-inventory .avatars .grid .cell,
+#user-inventory .badges .grid .cell,
+.user-content .grid .cell,
+.user-content.communities .grid .cell {
+	border-radius:10px;
+}
+
+#user-inventory .history .legend {
+	color:#4aaee7;
+}
+
+#user-inventory .history .list .row {
+	background:#1C3146;
+}
+
+#user-inventory .history .list .row .item {
+	background:#2878ba;
+}
+
+/* Shop */
+
+.user-content .grid .cell, .user-content.communities .grid .cell {
+	background:#000;
+	box-shadow:inset 0 -2px 20px -2px #2878ba;
+}
+
+#user-store .badges .grid .cell .top,
+#user-store .misc .grid .cell .top {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c3146+0,2989d8+71,207cca+72,1c3146+100 */
+background: rgb(28,49,70); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(28,49,70,1) 0%, rgba(41,137,216,1) 71%, rgba(32,124,202,1) 72%, rgba(28,49,70,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(28,49,70,1) 0%,rgba(41,137,216,1) 71%,rgba(32,124,202,1) 72%,rgba(28,49,70,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(28,49,70,1) 0%,rgba(41,137,216,1) 71%,rgba(32,124,202,1) 72%,rgba(28,49,70,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c3146', endColorstr='#1c3146',GradientType=0 ); /* IE6-9 */
+}
+
+#user-store .badges .grid .cell:hover .top,
+#user-store .misc .grid .cell:hover .top {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c3146+0,2989d8+71,207cca+72,1c3146+100 */
+background: rgb(28,49,70); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(28,49,70,1) 0%, rgba(41,137,216,1) 71%, rgba(32,124,202,1) 72%, rgba(28,49,70,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(28,49,70,1) 0%,rgba(41,137,216,1) 71%,rgba(32,124,202,1) 72%,rgba(28,49,70,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(28,49,70,1) 0%,rgba(41,137,216,1) 71%,rgba(32,124,202,1) 72%,rgba(28,49,70,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c3146', endColorstr='#1c3146',GradientType=0 ); /* IE6-9 */
+}
+
+/* Friends */
+
+#user-friends .tab-menu button .count {
+	background: #2878BA;
+	border: 16px;
+	padding: 4px 4px;
+	top:10px;
+}
+
+#user-friends .list {
+	background:#1C3146;
+}
+
+#user-friends .list .row {
+	opacity:0.6;
+	transition:0.5s;
+	background:#1C3146;
+}
+
+#user-friends .list .row:hover {
+	opacity:1;
+	box-shadow:inset 3px 0 0 #89be6c;
+	background:rgba(137,190,108,0.2);
+}
+
+#user-friends .list .row.is-offline:hover {
+	opacity:1;
+	box-shadow:inset 3px 0 0 #C04043;
+	background:rgba(192,64,67,0.2);
+}
+
+#user-friends .list .row .buttons button {
+	background:none !important;
+	transition:0.5s;
+}
+
+#user-friends .list .row:hover .buttons button.positive {
+	background:rgba(40,120,186,0.4) !important;
+}
+
+#user-friends .list .row:hover .buttons button.positive:hover {
+	background:rgba(40,120,186,0.8) !important;
+}
+
+#user-friends .list .row:hover .buttons button.negative {
+	background:rgba(192,64,67,0.4) !important;
+}
+
+#user-friends .list .row:hover .buttons button.negative:hover {
+	background:rgba(192,64,67,0.8) !important;
+}
+
+#user-friends .list .row .joined {
+	color:#777;
+}
+
+#user-friends .search {
+	background:rgba(44,181,232,0.2);
+	transition:0.3s;
+}
+
+#user-friends .search.focused {
+	box-shadow:inset 0 0 10px #000 !important;
+	border:none;
+}
+
+/* Recently Played */
+
+.media-list.history .score .grabs span {
+	color:#4aaee7;
+}
+
+.media-list.history .score .positive {
+	color:#1CA949;
+}
+
+.media-list.history .score .negative {
+	color:#C04043;
+}
+
+.media-list.history .row {
+	transition:0.5s;
+}
+
+.media-list.history .row:hover {
+	background:rgba(40,120,186,0.4) !important;
+}
+
+/* Communities */
+
+.user-content.communities button {
+	background:#2878ba;
+}
+
+/* Settings */
+
+#user-settings .container .subscribe-button {
+	box-shadow:inset 0 0 0 1px transparent, inset 0 0 40px #000;
+transition:0.5s;
+}
+
+#user-settings .container .subscribe-button:hover {
+	box-shadow:inset 0 0 0 1px #c59840, inset 0 0 40px #000;
+}
+
+
 /* Custom CSS */
+
+#room-settings .general-settings .description .value a:last-of-type {
+	display:none !important;
+}
+
+#room-settings .general-settings .description .value:after {
+	content:" Custom Community Settings by -PinguiN-";
+	color:#4aaee7;
+}
+
+#user-rollover.id-4006230 .meta {
+height:140px !important;
+}
+
+#user-rollover.id-4006230 .meta .status:after {
+content:"\A" url('http://i.imgur.com/VzJXKT1.png') " Designer";
+color: #7cbf00;
+margin-left: 4px;
+white-space: pre;
+font-size: 12px;
+position: relative;
+text-transform: uppercase;
+font-weight: 600;
+top:3px;
+}
+
+#user-rollover.id-4006230 .meta .joined {
+top:90px;
+}
+
+#user-rollover.id-4006230 .meta .showID {
+top:110px !important;
+}
 
 [data-cid^="4006230-"] .msg .from .un {
 	position: relative;
