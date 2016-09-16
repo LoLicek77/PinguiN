@@ -222,6 +222,10 @@ You are NOT allowed using this file without creator's permission!
 	background:#4aaee7;
 }
 
+#chat .msg .text .name.rdj, #chat .msg .text .name.bouncer, #chat .msg .text .name.manager, #chat .msg .text .name.cohost, #chat .msg .text .name.host, #chat .msg .text .name.rdj .name, #chat .msg .text .name.bouncer .name, #chat .msg .text .name.manager .name, #chat .msg .text .name.cohost .name, #chat .msg .text .name.host .name {
+    color:#1CA949 !important;
+}
+
 .radiantimg-delete {
 	transition:0.5s;
 	padding:4px !important;
@@ -1201,6 +1205,11 @@ color:#1CA949 !important;
     border-radius: 20px !important;
 }
 
+#dialog-restricted-media .dialog-frame .button.submit {
+    background: transparent !important;
+    border-radius: 0 0 20px 20px;
+}
+
 #dialog-playlist-create.dialog.destructive .button.submit {
     border-radius: 0 0 20px 20px;
     background: rgba(192,64,67,0.9) !important;
@@ -1456,6 +1465,49 @@ color:#1CA949 !important;
 #rs-dialog-optimisesettings .dialog-frame .button.submit {
     background: rgba(40,120,186,1) !important;
 }
+
+/* Communities */
+
+#dashboard.app-left.communities {
+    background: #1C3146;
+}
+
+.tab-menu button.selected,
+.tab-menu button.selected:hover {
+    background: rgba(40,120,186,1) !important;
+}
+
+.tab-menu button:hover {
+    background: rgba(40,120,186,0.8) !important;
+}
+
+#dashboard .search {
+	background:rgba(44,181,232,0.2);
+	transition:0.3s;
+}
+
+#dashboard .search.focused {
+	box-shadow:inset 0 0 10px #000 !important;
+	border:none;
+}
+
+.communities .grid .cell .population div i.icon.icon-friends-grey {
+	background-image:url('http://i.imgur.com/rPH5luF.png');
+	background-position:-6px -6px;
+}
+
+.communities .grid .cell .population div.guests span {
+	color:#78a4bd;
+}
+
+.communities .grid .cell .population .friends .divider, .communities .grid .cell .population .guests .divider {
+	background:#fff;
+}
+
+.communities .grid .cell .favorite {
+    background:#162738;
+}
+
 
 /* Custom CSS */
 
