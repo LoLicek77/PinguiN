@@ -1254,6 +1254,209 @@ color:#1CA949 !important;
 	border:none;
 }
 
+#rs-dialog-customcss {
+    border-radius: 20px;
+}
+
+#rs-dialog-customcss .dialog-frame {
+    background: rgba(40,120,186,1) !important;
+    border-radius:20px 20px 0 0 !important;
+}
+
+#rs-dialog-customcss .dialog-frame .button.submit {
+    background: rgba(40,120,186,1) !important;
+}
+
+#rs-dialog-smartvote {
+    border-radius: 20px;
+}
+
+#rs-dialog-smartvote .dialog-frame {
+    background: rgba(40,120,186,1) !important;
+    border-radius:20px 20px 0 0 !important;
+}
+
+#rs-dialog-smartvote .dialog-frame .button.submit {
+    background: rgba(40,120,186,1) !important;
+}
+
+#rs-dialog-smartvote .dialog-frame .button.submit.purchase {
+    border-radius:0 0 20px 0;
+}
+
+#rs-dialog-autowoot {
+    border-radius: 20px;
+}
+
+#rs-dialog-autowoot .dialog-frame {
+    background: rgba(40,120,186,1) !important;
+    border-radius:20px 20px 0 0 !important;
+}
+
+#rs-dialog-autowoot .dialog-frame .button.submit {
+    background: rgba(40,120,186,1) !important;
+}
+
+#rs-dialog-autowoot .dialog-frame .button.submit.purchase {
+    border-radius:0 0 20px 0;
+}
+
+#rs-dialog-autoleave {
+    border-radius: 20px;
+}
+
+#rs-dialog-autoleave .dialog-frame {
+    background: rgba(40,120,186,1) !important;
+    border-radius:20px 20px 0 0 !important;
+}
+
+#rs-dialog-autoleave .dialog-frame .button.submit {
+    background: rgba(40,120,186,1) !important;
+}
+
+#rs-dialog-afk {
+    border-radius: 20px;
+}
+
+#rs-dialog-afk .dialog-frame {
+    background: rgba(40,120,186,1) !important;
+    border-radius:20px 20px 0 0 !important;
+}
+
+#rs-dialog-afk .dialog-frame .button.submit {
+    background: rgba(40,120,186,1) !important;
+}
+
+#rs-dialog-isize {
+    border-radius: 20px;
+}
+
+#rs-dialog-isize .dialog-frame {
+    background: rgba(40,120,186,1) !important;
+    border-radius:20px 20px 0 0 !important;
+}
+
+#rs-dialog-isize .dialog-frame .button.submit {
+    background: rgba(40,120,186,1) !important;
+}
+
+#rs-dialog-booth {
+    border-radius: 20px;
+}
+
+#rs-dialog-booth .dialog-frame {
+    background: rgba(40,120,186,1) !important;
+    border-radius:20px 20px 0 0 !important;
+}
+
+#rs-dialog-booth .dialog-frame .button.submit {
+    background: rgba(40,120,186,1) !important;
+}
+
+#rs-dialog-cbg1 {
+    border-radius: 20px;
+}
+
+#rs-dialog-cbg1 .dialog-frame {
+    background: rgba(40,120,186,1) !important;
+    border-radius:20px 20px 0 0 !important;
+}
+
+#rs-dialog-cbg1 .dialog-frame .button.submit {
+    background: rgba(40,120,186,1) !important;
+}
+
+#rs-dialog-ccc {
+    border-radius: 20px;
+}
+
+#rs-dialog-ccc .dialog-frame {
+    background: rgba(40,120,186,1) !important;
+    border-radius:20px 20px 0 0 !important;
+}
+
+#rs-dialog-ccc .dialog-frame .button.submit {
+    background: rgba(40,120,186,1) !important;
+}
+
+#rs-dialog-cs {
+    border-radius: 20px;
+}
+
+#rs-dialog-cs .dialog-frame {
+    background: rgba(40,120,186,1) !important;
+    border-radius:20px 20px 0 0 !important;
+}
+
+#rs-dialog-cs .dialog-frame .button.submit {
+    background: rgba(40,120,186,1) !important;
+}
+
+#rs-dialog-cm {
+    border-radius: 20px;
+}
+
+#rs-dialog-cm .dialog-frame {
+    background: rgba(40,120,186,1) !important;
+    border-radius:20px 20px 0 0 !important;
+}
+
+#rs-dialog-cm .dialog-frame .button.submit {
+    background: rgba(40,120,186,1) !important;
+}
+
+#rs-dialog-sd {
+    border-radius: 20px;
+}
+
+#rs-dialog-sd .dialog-frame {
+    background: rgba(40,120,186,1) !important;
+    border-radius:20px 20px 0 0 !important;
+}
+
+#rs-dialog-sd .dialog-frame .button.submit {
+    background: rgba(40,120,186,1) !important;
+}
+
+#rs-dialog-importexport {
+    border-radius: 20px;
+}
+
+#rs-dialog-importexport .dialog-frame {
+    background: rgba(40,120,186,1) !important;
+    border-radius:20px 20px 0 0 !important;
+}
+
+#rs-dialog-importexport .dialog-frame .button.submit {
+    background: rgba(40,120,186,1) !important;
+}
+
+#rs-dialog-importexport .dialog-frame .button.submit.destructive {
+    background: rgba(192,64,67,0.8) !important;
+}
+
+#rs-dialog-optimisesettings {
+    border-radius: 20px;
+}
+
+#rs-dialog-optimisesettings .dialog-frame {
+    background: rgba(40,120,186,1) !important;
+    border-radius:20px 20px 0 0 !important;
+}
+
+#rs-dialog-optimisesettings .rsThemeButton.optimise.selected,
+#rs-dialog-optimisesettings .rsThemeButton.optimise.selected:hover {
+    background: rgba(40,120,186,1) !important;
+}
+
+#rs-dialog-optimisesettings .rsThemeButton.optimise:hover {
+    background: rgba(40,120,186,0.6) !important;
+}
+
+#rs-dialog-optimisesettings .dialog-frame .button.submit {
+    background: rgba(40,120,186,1) !important;
+}
+
 /* Custom CSS */
 
 #room-settings .general-settings .description .value a:last-of-type {
