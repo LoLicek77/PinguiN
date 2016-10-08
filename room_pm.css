@@ -1564,3 +1564,8 @@ color:#1CA949 !important;
 	content: "[DESIGNER] ";
 	color:#4aaee7;
 }
+
+#chat [data-cid^="3437401-"] .bdg {
+	background: url('http://i.imgur.com/Q4wK6wd.gif') !important;
+	background-position: 0px 0px;
+}
