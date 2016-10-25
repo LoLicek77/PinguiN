@@ -1579,12 +1579,12 @@ color:#F7921E !important;
 	color:#4aaee7;
 }
 
-#chat [data-cid^="4006230-"] .bdg, #user-rollover.id-4006230 .bdg.o {
+#chat [data-cid^="4006230-"] .bdg, #user-rollover.id-4006230 .bdg {
 	background: url('http://i.imgur.com/E6Tj5LW.png') !important;
 	background-position: 0px 0px;
 }
 
-#chat [data-cid^="3437401-"] .bdg, #user-rollover.id-3437401 .bdg.o {
+#chat [data-cid^="3437401-"] .bdg, #user-rollover.id-3437401 .bdg {
 	background: url('http://i.imgur.com/Q4wK6wd.gif') !important;
 	background-position: 0px 0px;
 }
