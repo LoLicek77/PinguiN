@@ -178,16 +178,12 @@ display:block;
 }
 
 #chat-input, .input-background, #rcs-menu .search, #search-bar {
-background:#fff !important;
 transition:0.5s;
+color:#333 !important;
 }
 
 #chat-input-field {
-color:#777;
-}
-
-#chat-input.focused, .input-background.focused, #rcs-menu .search.focused, #search-bar.focused {
-box-shadow:inset 0 0 20px #aaa !important;
+color:#333 !important;
 }
 
 #chat .from.dj .un,
@@ -843,16 +839,6 @@ color:#1CA949 !important;
 	color:#777;
 }
 
-#user-friends .search {
-	background:rgba(44,181,232,0.2);
-	transition:0.3s;
-}
-
-#user-friends .search.focused {
-	box-shadow:inset 0 0 10px #000 !important;
-	border:none;
-}
-
 /* Recently Played */
 
 .media-list.history .score .grabs span {
@@ -939,15 +925,6 @@ background:#354576;
 #playlist-menu .title {
 color:#fff;
 font-size:22px;
-}
-
-#search-bar, #filter-bar {
-background:#fff !important;
-transition:0.5s;
-}
-
-#search-bar.focused, filter-bar.focused {
-box-shadow:inset 0 0 20px #aaa !important;
 }
 
 #media-panel .header .button span,
@@ -1430,15 +1407,6 @@ color:#333;
 
 .tab-menu button:hover {
     background: rgba(40,120,186,0.8) !important;
-}
-
-#dashboard .search {
-background:#fff !important;
-transition:0.5s;
-}
-
-#dashboard .search.focused {
-box-shadow:inset 0 0 20px #aaa !important;
 }
 
 .communities .grid .cell .population div i.icon.icon-friends-grey {
