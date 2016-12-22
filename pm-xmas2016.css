@@ -653,3 +653,14 @@ box-shadow:inset 3px 0 0 #fff;
 #user-menu .item:hover {
 background:rgba(53,69,118,0.8);
 }
+
+#playback .background {
+	background: url('http://i.imgur.com/RSNbnh5.png') !important;
+	width: 700px !important;
+	height: 270px !important;
+	left:-103px;
+}
+
+#playback .background img {
+	display: none;
+}
