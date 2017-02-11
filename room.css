@@ -960,7 +960,7 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 /* Shoky */
 
 #chat [data-cid^="5756006-"] .bdg {
-	background: url('http://i.imgur.com/UMgkFmN.png') !important;
+	background: url('http://i.imgur.com/R3t47Ec.jpg') !important;
 	background-position: 0px 0px;
 }
 
@@ -982,6 +982,11 @@ background:url('https://cdn.plug.dj/_/static/images/icons.38f7ee77fd7ad2bc018b1a
 
 #chat [data-cid^="6614885-"] .bdg {
 	background: url('http://i.imgur.com/C9K7aaN.gif') !important;
+	background-position: 0px 0px;
+}
+
+#chat [data-cid^="13505684-"] .bdg {
+	background: url('http://i.imgur.com/POy0r4A.png') !important;
 	background-position: 0px 0px;
 }
 
