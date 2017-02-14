@@ -6,7 +6,7 @@ I am creating some Custom CSS for this site. But first you have to install [RCS]
 
 ### My Communities
 
-I did a lot of CSS's but now I decided to delete them. I am now working at new CSS. I wanted to change plug and modernize it. Also I want to make some FlatUI Theme.
+I did a lot of CSS's but now I decided to delete them. I am creating new CSS. I wanted to change plug and modernize it. Also I want to make some FlatUI Theme.
 
 ### Copyright
 
