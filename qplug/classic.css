@@ -13,8 +13,6 @@ Copyright © 2017 PinguiN
 /* ------------------------------- MAIN ------------------------------- */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
-/* http://i.imgur.com/kA2OdxX.png */
-
 body {
   background:url('http://i.imgur.com/0rzbU1V.png') center center no-repeat fixed;
 }
@@ -485,7 +483,7 @@ body {
 
 #chat .cm.log {
   background:rgba(41, 128, 185,.3);
-  padding:5px;
+  padding:5px 0;
   text-align:center;
 }
 
@@ -553,7 +551,7 @@ body {
 #chat .rs-log-green, #chat .rs-log-user-friend-join, #chat .rs-log-user-woot {
   border-color:#2ecc71 !important;
   color:#2ecc71 !important;
-  background:rgba(46, 204, 113,.1) !important;
+  background:rgba(46, 204, 113,.2) !important;
 }
 
 #chat .rs-log-orange, #chat .rs-log-user-leave, #chat .rs-log-history,
@@ -563,14 +561,73 @@ body {
   background:rgba(231, 76, 60,.1) !important;
 }
 
+#chat .rs-log-purple, #chat .rs-log-user-grab {
+  border-color:#9b59b6 !important;
+  color:#9b59b6 !important;
+  background:rgba(155, 89, 182,.2) !important;
+}
+
+#chat .rs-log-usrinfo, #chat .rs-log-aqua, #chat .rs-log-booth-alert, #chat .rs-log-user-join {
+  background:rgba(52, 152, 219,.2) !important;
+}
+
 #chat .moderation {
-  background:rgba(230, 126, 34,.2) !important;
+  background:rgba(230, 126, 34,.1) !important;
   color:#e67e22 !important;
-  border-left:3px solid #e67e22;
+
 }
 
 #chat .moderation .un {
   color:#e67e22 !important;
+}
+
+/* QPlug.cz BOT */
+
+[data-cid^="23843691-"] .msg,
+#chat .mention.id-23843691 {
+  background:rgba(52, 152, 219,.2) !important;
+}
+
+[data-cid^="23843691-"] .msg .from .un,
+#chat .cm.id-23843691 .from .un {
+  position: relative;
+  color:#3498db !important;
+}
+
+[data-cid^="23843691-"] .msg .from::before {
+  content: "BOT";
+  color:#3498db;
+}
+
+[data-cid^="23843691-"].cm::before {
+  content: '\f2bd';
+  font-family: FontAwesome;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 26px;
+  color: #fff;
+}
+
+
+#user-rollover.is-staff.id-23843691 .info .role span,
+#user-rollover.is-staff.id-23843691 .info .role .icon,
+#user-rollover.is-staff.id-23843691 .info .level .value,
+[data-cid^="23843691-"] .msg .from .un,
+[data-cid^="23843691-"] .msg .icon,
+[data-cid^="23843691-"] .badge-box {
+  display:none;
+}
+
+#user-rollover.is-staff.id-23843691 .info .level::after {
+  content:"∞";
+  position:relative;
+  top:2px;
+}
+
+#user-rollover.is-staff.id-23843691 .info .role::after {
+  content:"BOT";
+  color:#3498db;
 }
 
 /* ------------------------- USER & WAIT LIST ------------------------- */
@@ -786,4 +843,23 @@ body {
 .app-right .friends .list .row.is-offline:hover .room {
   background:#e74c3c;
   color:#fff;
+}
+
+/* ---------------------------- CUSTOM ---------------------------- */
+
+/* [data-cid^="4006230"] .bdg.o,
+.id-4006230 .bdg.o {
+  background-image:url('http://i.imgur.com/HdAfhip.png');
+}
+*/
+
+/* Bonki */
+[data-cid^="6345878-"] .msg .from .un {
+  position: relative;
+  left: -1px;
+  padding-left: 18px;
+  background-image: url('http://i.imgur.com/eM22HbZ.png');
+  background-repeat: no-repeat;
+  background-position: 0px center;
+  background-size: 16px auto;
 }
