@@ -847,11 +847,16 @@ body {
 
 /* ---------------------------- CUSTOM ---------------------------- */
 
-/* [data-cid^="4006230"] .bdg.o,
-.id-4006230 .bdg.o {
-  background-image:url('http://i.imgur.com/HdAfhip.png');
+/* -PinguiN- */
+[data-cid^="4006230-"] .msg .from .un {
+  position: relative;
+  left: -1px;
+  padding-left: 18px;
+  background-image: url('http://i.imgur.com/eM22HbZ.png');
+  background-repeat: no-repeat;
+  background-position: 0px center;
+  background-size: 16px auto;
 }
-*/
 
 /* Bonki */
 [data-cid^="6345878-"] .msg .from .un {
