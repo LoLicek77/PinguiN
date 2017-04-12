@@ -2,7 +2,7 @@
     "room": "PinguiN Developer Room",
     "author": "-PinguiN-",
     "icon": null,
-    "css": null,
+    "css": "https://raw.githubusercontent.com/LoLicek77/plugCSS/master/pinguDev/glassStyle.css",
     "rules": {
         "allowAutorespond": true,
         "allowAutowoot": true,
