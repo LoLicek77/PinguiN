@@ -4,7 +4,7 @@
 
 I am creating some Custom CSS for this site. But first you have to install [RCS](https://rcs.radiant.dj/).
 
-** UPDATE: ** I'm not creating new CSS Themes anymore but maybe one time... I'll come back with something new. :-)
+**UPDATE:** I'm not creating new CSS Themes anymore but maybe one time... I'll come back with something new. :-)
 
 ### Themes Library
 
