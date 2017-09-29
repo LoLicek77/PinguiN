@@ -1,10 +1,10 @@
 # PinguiN - Styles for plug.dj
 
-[Plug.DJ](https://plug.dj/) is a great site to listen to music. There are also a big community. You can chat with them all the days.
+[Plug.DJ](https://plug.dj/) is a great site to listen to music. There are also a big communities of great people. You can chat with them all day.
 
-I am creating some Custom CSS for this site. But first you have to install [RCS](https://rcs.radiant.dj/).
+I am creating some Custom CSS for this site because I like CSS Programming language. You are free to use my themes but first you have to install [RCS](https://rcs.radiant.dj/).
 
-**UPDATE:** I'm not creating new CSS Themes anymore but maybe one time... I'll come back with something new. :-)
+**UPDATE:** I am not creating new CSS Themes anymore but maybe one time... I will come back with something new. :-)
 
 ### Themes Library
 
@@ -18,7 +18,7 @@ I am creating some Custom CSS for this site. But first you have to install [RCS]
 
 ### Copyright
 
-I can not prevent my projects but if you are not a dumb :smile: you can know that it takes a lot of time doing CSS's so my projects are free for all. I am making a some "ad" there so if you want to "support" me you can let it without editing. Thank you for understanding. 
+I can not prevent my projects from being stolen and remaked but if you are not a dumb :-) you may know that it takes a lot of time doing CSS. Anyway my projects are free for all. I am making some "ad" there so if you want to "support" me you can let it without editing. Thank you for understanding. 
 
 ### Support or Contact
 
