@@ -620,7 +620,7 @@ body {
 }
 
 #user-rollover.is-staff.id-23843691 .info .level::after {
-  content:"∞";
+  content:"?";
   position:relative;
   top:2px;
 }
