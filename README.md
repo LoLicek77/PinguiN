@@ -1,12 +1,20 @@
-# PinguiN Industries - Styles for plug.dj
+# PinguiN - Styles for plug.dj
 
 [Plug.DJ](https://plug.dj/) is a great site to listen to music. There are also a big community. You can chat with them all the days.
 
 I am creating some Custom CSS for this site. But first you have to install [RCS](https://rcs.radiant.dj/).
 
-### My Communities
+I'm not creating new CSS Themes anymore but maybe one time... I'll come back with something new. :-)
 
-I did a lot of CSS's but now I decided to delete them. I am creating new CSS. I wanted to change plug and modernize it. Also I want to make some FlatUI Theme.
+### Themes Library
+
+[Glass Design](https://raw.githubusercontent.com/LoLicek77/plugCSS/master/themes/glassDesign.css)
+
+[Winter 2016](https://raw.githubusercontent.com/LoLicek77/plugCSS/master/themes/xmas2016.css)
+
+[Dark Blue](https://raw.githubusercontent.com/LoLicek77/plugCSS/master/themes/darkBlue.css)
+
+[Blue Nature](https://raw.githubusercontent.com/LoLicek77/plugCSS/master/themes/blueNature.css)
 
 ### Copyright
 
