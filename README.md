@@ -4,9 +4,15 @@
 
 I am creating some Custom CSS for this site because I like CSS Programming language. You are free to use my themes but first you have to install [RCS](https://rcs.radiant.dj/).
 
-**UPDATE:** I am not creating new CSS Themes anymore but maybe one time... I will come back with something new. :-)
+**UPDATE:** Added new design! It's remaked Glass Design and Blue Nature! Hope you enjoy! [BlueGlassy](https://raw.githubusercontent.com/LoLicek77/plugCSS/master/themes/blueGlassy2018.css)
 
 ### Themes Library
+
+![NEW](https://i.imgur.com/xpt9sQ3.png)
+
+[BlueGlassy](https://raw.githubusercontent.com/LoLicek77/plugCSS/master/themes/blueGlassy2018.css)
+
+![OLD](https://i.imgur.com/SxfFzq2.pnghttps://i.imgur.com/xpt9sQ3.png)
 
 [Glass Design](https://raw.githubusercontent.com/LoLicek77/plugCSS/master/themes/glassDesign.css)
 
