@@ -1,6 +1,6 @@
 # PinguiN - Styles for plug.dj
 
-[Plug.DJ](https://plug.dj/) is a great site to listen to music. There are also a big communities of great people. You can chat with them all day.
+[Plug.DJ](https://plug.dj/) is a great site to listen to music. There are also big communities of great people. You can chat with them all day.
 
 I am creating some Custom CSS for this site because I like CSS Programming language. You are free to use my themes but first you have to install [RCS](https://rcs.radiant.dj/).
 
