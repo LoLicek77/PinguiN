@@ -25,7 +25,3 @@ I am creating some Custom CSS for this site because I like CSS Programming langu
 ### Copyright
 
 I can not prevent my projects from being stolen and remaked but if you are not a dumb :-) you may know that it takes a lot of time doing CSS. Anyway my projects are free for all. I am making some "ad" there so if you want to "support" me you can let it without editing. Thank you for understanding. 
-
-### Support or Contact
-
-You can contact me at my [website](http://pinguin.maweb.eu/home). (Website is now under construction but it will be available as soon as possible!
